@@ -1,0 +1,7 @@
+Docker adalah platform open-source yang memungkinkan pengembang untuk mengemas, mengirim, dan menjalankan aplikasi secara konsisten di lingkungan yang terisolasi yang disebut sebagai container. Container Docker memungkinkan aplikasi dan semua dependensinya (seperti library dan konfigurasi) untuk diisolasi dari infrastruktur lainnya, sehingga aplikasi dapat berjalan dengan konsisten di berbagai lingkungan, mulai dari mesin pengembangan hingga produksi.
+
+Dengan Docker, Anda dapat:
+
+1. Membuat container yang ringan dan cepat untuk menjalankan aplikasi.
+2. Membagikan aplikasi dan lingkungan kerja dalam bentuk yang dapat dijamin konsistensinya.
+3. Mengotomatiskan proses deployment aplikasi.
