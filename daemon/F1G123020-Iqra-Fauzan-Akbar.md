@@ -5,7 +5,7 @@
 Daemon adalah proses yang berjalan di latar belakang tanpa interaksi langsung dengan pengguna. Fungsi utama daemon dalam sistem operasi adalah melakukan tugas-tugas otomatis atau layanan yang berkelanjutan. Biasanya daemon diaktifkan saat sistem booting dan terus berjalan tanpa perlu dimulai oleh pengguna.
 
 ## B. CARA PEMASANGAN
-### 1. Carilah reporsitory github yang akan diclone
+### 1. Carilah reporsitory github yang akan diclone 
 ``` 
 git clone https://github.com/SirGhazian/website-donasi-laravel.git
 ```
