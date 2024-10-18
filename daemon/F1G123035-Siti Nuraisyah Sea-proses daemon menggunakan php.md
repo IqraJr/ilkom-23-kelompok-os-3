@@ -3,8 +3,7 @@ Daemon adalah program yang berjalan di latar belakang dan biasanya berjalan seca
 1. Script PHP untuk Daemon
 Berikut adalah contoh script daemon PHP sederhana yang berjalan di latar belakang dan mencatat waktu setiap 5 detik ke file log.
 
-php
-Salin kode
+
 <?php
 // File: daemon.php
 
@@ -52,6 +51,7 @@ if ($pid == -1) {
     }
 }
 ?>
+
 Penjelasan Script:
 pcntl_fork(): Memecah proses menjadi dua, induk dan anak. Proses induk segera keluar, sementara proses anak melanjutkan sebagai daemon.
 posix_setsid(): Menjalankan proses anak sebagai "session leader" yang independen dari terminal.
