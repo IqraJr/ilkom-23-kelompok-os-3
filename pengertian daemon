@@ -1,1 +1,6 @@
 Daemon adalah program komputer yang berjalan di latar belakang, biasanya tanpa interaksi langsung dengan pengguna. Daemon sering digunakan untuk menangani tugas-tugas tertentu, seperti pengelolaan jaringan, penjadwalan tugas, atau mengawasi proses lain. Dalam sistem operasi Unix dan Linux, daemon biasanya memiliki nama yang diawali dengan huruf "d" (seperti `httpd` untuk server web). Daemon dapat dimulai secara otomatis saat sistem booting atau dijalankan atas permintaan.
+Ciri-ciri Daemon:
+Berjalan di Latar Belakang: Tidak menampilkan antarmuka langsung kepada pengguna.
+Memulai Otomatis: Banyak daemon yang diatur untuk memulai saat sistem boot.
+Tidak Bergantung pada Terminal: Setelah dijalankan, daemon tidak terikat pada terminal dan terus berjalan meskipun terminal ditutup.
+Berjalan Lama: Dirancang untuk berjalan dalam waktu lama tanpa harus dihentikan, idealnya hingga komputer dimatikan.
