@@ -83,7 +83,7 @@ create_daemon();
 Simpan skrip ini ke dalam file (misalnya `daemon.php`) dan jalankan dari command line:
 
 ```bash
-php /path/to/your/daemon.php
+php ~/daemon.php
 ```
 
 Setelah dijalankan, daemon akan berjalan di latar belakang dan melakukan tugas yang ditentukan. Pastikan untuk memeriksa file log yang Anda tentukan untuk melihat aktivitas daemon.
