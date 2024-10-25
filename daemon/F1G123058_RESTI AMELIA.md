@@ -37,6 +37,6 @@ Untuk mengunggahnya, lakukan langkah berikut:
 ```bash
 git add daemon/F1G123010-riansyah.md
 git commit -m "Menambahkan dokumentasi proses daemon"
-git push origin main
+git push origin main.
 
  
