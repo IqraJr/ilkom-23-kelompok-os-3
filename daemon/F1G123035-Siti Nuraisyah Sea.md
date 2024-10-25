@@ -54,5 +54,4 @@ $ sudo systemctl status nuraisyah.service
 ```
 
 ## Bukti daemon telah berjalan
-![Bukti daemon](![image](https://github.com/user-attachments/assets/498a3b39-8d8e-4338-bcba-0fb88e862b06)
-)
+![image](https://github.com/user-attachments/assets/4d20e968-b520-4f2e-bae4-dcf10707dd27)
