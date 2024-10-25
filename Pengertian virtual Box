@@ -1,0 +1,13 @@
+VirtualBox adalah perangkat lunak virtualisasi yang memungkinkan pengguna untuk menjalankan beberapa sistem operasi di dalam satu komputer fisik. Dalam konteks daemon, VirtualBox beroperasi dengan cara tertentu untuk mendukung fungsi dan manajemen mesin virtual. Berikut adalah penjelasan mengenai VirtualBox dan hubungannya dengan daemon:
+
+Pengertian VirtualBox
+- Definisi: VirtualBox adalah aplikasi open-source yang dikembangkan oleh Oracle. Ini memungkinkan pengguna untuk membuat dan mengelola mesin virtual (VM) yang dapat menjalankan sistem operasi yang berbeda, seperti Windows, Linux, atau macOS.
+Hubungan dengan Daemon
+- Daemon dalam VirtualBox: Saat VirtualBox dijalankan, ia menggunakan proses daemon untuk mengelola berbagai aspek dari mesin virtual. Misalnya, ada daemon yang bertanggung jawab untuk menangani jaringan, penyimpanan, dan komunikasi antar VM.
+- VBoxHeadless: Salah satu contoh daemon dalam konteks VirtualBox adalah VBoxHeadless, yang memungkinkan pengguna menjalankan mesin virtual tanpa antarmuka grafis. Ini sangat berguna untuk server dan aplikasi yang diakses dari jarak jauh.
+
+Fungsi Daemon dalam VirtualBox
+a. Manajemen Sumber Daya: Daemon membantu dalam alokasi sumber daya seperti CPU, RAM, dan penyimpanan untuk setiap VM, memastikan operasi yang efisien.
+b. Koneksi Jaringan: Daemon mengelola pengaturan jaringan untuk VM, memungkinkan mereka untuk terhubung ke internet atau jaringan lokal.
+c. Monitoring dan Logging: Daemon dapat memantau kinerja VM dan mencatat aktivitas, yang berguna untuk pemecahan masalah dan pengelolaan.
+d. Otomatisasi: Beberapa daemon memungkinkan pengguna untuk mengotomatiskan tugas-tugas tertentu, seperti memulai atau menghentikan VM pada waktu tertentu.
