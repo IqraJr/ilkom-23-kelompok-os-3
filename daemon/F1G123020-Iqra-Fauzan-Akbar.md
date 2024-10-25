@@ -64,7 +64,7 @@ chmod +x laravel-daemon.sh
 ### 6. Cara mengakses
 Masukan URL berikut ke dalam browser anda
 ```
-http://localhost:8000/
+http://127.0.0.1:8000/
 ```
 ## C.SCREENSHOT
 ![Screenshot 2024-10-18 002510](https://github.com/user-attachments/assets/23d03423-a7b1-4039-82c7-b45be503de74)
