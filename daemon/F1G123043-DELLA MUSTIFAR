@@ -1,0 +1,86 @@
+Daemon dalam konteks Docker adalah proses latar belakang yang mengelola kontainer. Berikut adalah cara menggunakan Docker daemon:
+
+### 1. **Memulai Docker Daemon**
+
+Pada kebanyakan sistem operasi, Docker daemon dimulai secara otomatis saat sistem booting. Namun, Anda bisa memulai atau menghentikannya secara manual menggunakan perintah berikut:
+
+- **Untuk memulai Docker daemon**:
+  ```bash
+  sudo systemctl start docker
+  ```
+
+- **Untuk menghentikan Docker daemon**:
+  ```bash
+  sudo systemctl stop docker
+  ```
+
+- **Untuk memeriksa status**:
+  ```bash
+  sudo systemctl status docker
+  ```
+
+### 2. **Menggunakan Docker CLI**
+
+Setelah daemon berjalan, Anda dapat berinteraksi dengannya melalui Docker CLI. Beberapa perintah dasar:
+
+- **Menarik (pull) image dari Docker Hub**:
+  ```bash
+  docker pull nama_image
+  ```
+
+- **Menjalankan kontainer**:
+  ```bash
+  docker run -d --name nama_kontainer nama_image
+  ```
+
+- **Melihat daftar kontainer yang sedang berjalan**:
+  ```bash
+  docker ps
+  ```
+
+- **Melihat semua kontainer (termasuk yang berhenti)**:
+  ```bash
+  docker ps -a
+  ```
+
+- **Menghentikan kontainer**:
+  ```bash
+  docker stop nama_kontainer
+  ```
+
+### 3. **Konfigurasi Daemon**
+
+Anda bisa mengonfigurasi Docker daemon melalui file konfigurasi (biasanya `/etc/docker/daemon.json`). Misalnya, untuk mengatur pengaturan jaringan atau menyimpan data di lokasi tertentu. Contoh file konfigurasi:
+
+```json
+{
+  "storage-driver": "overlay2",
+  "log-level": "error"
+}
+```
+
+Setelah mengubah konfigurasi, Anda perlu me-restart daemon dengan perintah:
+
+```bash
+sudo systemctl restart docker
+```
+
+### 4. **Mengelola Daemon dengan Docker Compose**
+
+Jika Anda menggunakan Docker Compose untuk mengelola aplikasi multi-kontainer, Anda cukup membuat file `docker-compose.yml` dan menjalankan:
+
+```bash
+docker-compose up
+```
+
+Ini akan menjalankan semua layanan yang didefinisikan dalam file tersebut.
+
+### 5. **Monitoring Daemon**
+
+Anda dapat memonitor aktivitas Docker daemon menggunakan perintah:
+
+```bash
+docker logs nama_kontainer
+```
+
+Ini akan menampilkan log dari kontainer tertentu.
