@@ -1,0 +1,13 @@
+**Daemon** adalah program komputer yang berjalan di latar belakang (background) dan tidak terikat dengan antarmuka pengguna (user interface). Daemon biasanya digunakan untuk menangani tugas-tugas yang berjalan secara otomatis atau untuk menyediakan layanan tertentu dalam sistem operasi. 
+
+Ciri-ciri dari daemon antara lain:
+
+1. **Menjalankan di Background**: Daemon tidak memerlukan interaksi langsung dari pengguna dan biasanya dimulai saat sistem booting.
+
+2. **Layanan Jaringan**: Banyak daemon berfungsi sebagai server untuk memberikan layanan jaringan, seperti HTTP server (misalnya Apache), database server, dan lain-lain.
+
+3. **Manajemen Proses**: Daemon dapat mengelola proses lain, seperti monitor sistem, penjadwalan tugas, atau menangani antrian pekerjaan.
+
+4. **Dinamika**: Daemon dapat diaktifkan atau dinonaktifkan sesuai kebutuhan, dan dapat dijadwalkan untuk berjalan pada waktu tertentu.
+
+Contoh umum dari daemon termasuk `cron` (yang menjadwalkan tugas), `sshd` (yang mengelola koneksi SSH), dan `httpd` (yang melayani permintaan HTTP).
