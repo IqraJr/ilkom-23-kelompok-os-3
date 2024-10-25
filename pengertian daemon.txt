@@ -11,3 +11,12 @@ Ciri-ciri dari daemon antara lainya:
 4. **Dinamika**: Daemon dapat diaktifkan atau dinonaktifkan sesuai kebutuhan, dan dapat dijadwalkan untuk berjalan pada waktu tertentu.
 
 Contoh umum dari daemon termasuk `cron` (yang menjadwalkan tugas), `sshd` (yang mengelola koneksi SSH), dan `httpd` (yang melayani permintaan HTTP).
+
+Fungsi Utama Daemon:
+1. Menangani Permintaan Jaringan: Banyak daemon bertugas untuk mendengarkan permintaan di jaringan, seperti server web (HTTP daemon) atau server email (SMTP daemon).
+
+2. Pekerjaan Berkala: Beberapa daemon menjalankan tugas berkala, seperti cron daemon yang mengatur penjadwalan tugas otomatis pada waktu tertentu.
+
+3. Pengelolaan Sumber Daya: Daemon dapat mengelola dan memonitor sumber daya sistem, seperti daemon untuk manajemen sistem file atau pengawasan kinerja.
+
+4. Layanan Sistem: Beberapa daemon memberikan layanan untuk pengguna dan aplikasi lain, seperti database daemon yang mengelola koneksi dan query ke database.
