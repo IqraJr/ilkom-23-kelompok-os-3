@@ -176,7 +176,7 @@ $daemon->start();
 ## 7. Memantau Statistik dan Log
 Data pengunjung dan statistik akan disimpan di `visitors.txt` dan `stats.json`, sedangkan log aktivitas daemon akan disimpan di `daemon.log`. Anda bisa membuka file ini untuk melihat pesan terkait aktivitas yang telah dilakukan oleh daemon process.
 
-## 8. Bukti Screenshoot Program Berhasil Berjalan
+## 8. Bukti Screenshoot Program Berhasil Berjalan.
 
 ## Tampilan Website
 ![Bukti Screenshoot ketika masih 13](https://drive.google.com/file/d/16eXLSbnKEdc7A8_D8WVMSUpXJv5SGjke/view?usp=drive_link)
