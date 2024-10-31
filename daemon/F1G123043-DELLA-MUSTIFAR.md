@@ -64,3 +64,7 @@ $ sudo systemctl enable della.service
 $ sudo systemctl start della.service
 $ sudo systemctl status della.service
 ```
+## Bukti Daemon berjalan 
+
+![Gambar Daemon](images/daemon.png)
+
