@@ -70,3 +70,8 @@ berikut bukti menjalankan daemon
 ![gambardaemon](https://github.com/delsskom/bukti-daemon-berjalan/blob/main/bukti%20sc%20menjalankan%20daemon.jpg?raw=true)
 
 ![gambardaemon](https://github.com/delsskom/bukti-daemon-berjalan/blob/main/Screenshot%202024-10-31%20140020.png?raw=true)
+
+## Menghentikan layanan operasi della.service
+```bash
+$ sudo systemctl stop della.service
+```
