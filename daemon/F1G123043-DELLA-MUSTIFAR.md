@@ -67,6 +67,6 @@ $ sudo systemctl status della.service
 ## Bukti Daemon berjalan 
 
 berikut bukti menjalankan daemon 
-![image] (![alt text](image.png))
+![image] (https://github.com/delsskom/bukti-daemon-berjalan/blob/main/bukti%20sc%20menjalankan%20daemon.jpg?raw=true)
 
-![alt text](image-1.png)
+![image] (https://github.com/delsskom/bukti-daemon-berjalan/blob/main/Screenshot%202024-10-31%20140020.png?raw=true)
