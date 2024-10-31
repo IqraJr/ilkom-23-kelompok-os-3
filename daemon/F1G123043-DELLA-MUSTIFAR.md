@@ -66,5 +66,5 @@ $ sudo systemctl status della.service
 ```
 ## Bukti Daemon berjalan 
 
-
+![image] (https://github.com/delsskom/bukti-daemon-berjalan.git)
 
