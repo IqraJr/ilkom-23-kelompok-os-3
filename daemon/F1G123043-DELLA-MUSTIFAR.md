@@ -5,23 +5,23 @@ Berikut tahapannya :
 ## Buat file.service
 Buat File .service: Buat file service kosong di direktori /etc/systemd/system/ dengan nama della.service:
 
-bash
+```bash
 $ sudo touch /etc/systemd/system/della.service
-
+```
 
 touch fungsinya untuk membuat file.service
 
 ## Edit File .service
 Setelah membuat file, buka file tersebut menggunakan editor teks seperti nano atau vim untuk menambahkan konfigurasi service.
 
-bash
+```bash
 $ sudo nano /etc/systemd/system/della.service
-
+```
 nano fungsinya untuk membuka file.service
 
 ## Penulisan script konfigurasi .service
 
-bash
+```bash
 [Unit]
 Description=della daemon
 
@@ -34,7 +34,7 @@ ExecStart=/home/della/venv/tugas/bin/uvicorn main:app --reload --port 7888
 
 [Install]
 WantedBy=multi-user.target
-
+```
 ## Penjelasan dari setiap bagian
 
 [Unit]
@@ -63,3 +63,4 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl enable della.service
 $ sudo systemctl start della.service
 $ sudo systemctl status della.service
+```
