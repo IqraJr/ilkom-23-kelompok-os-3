@@ -39,23 +39,23 @@ WantedBy=multi-user.target
 
 [Unit]
 
-Description: Menyediakan deskripsi singkat tentang unit. Dalam hal ini, ini adalah daemon untuk pengguna "della".
+Description: Menyediakan deskripsi singkat tentang unit. Dalam hal ini, ini adalah daemon untuk pengguna "della daemon".
 
 [Service]
 
-User: Menentukan pengguna di mana layanan akan dijalankan. Pastikan pengguna "della" ada di sistem.
+User: Menentukan pengguna di mana layanan service akan dijalankan. yaitu "della" ada di sistem.
 
 Restart: Menentukan kebijakan restart. always berarti layanan akan selalu dimulai kembali jika mati.
 
-WorkingDirectory: Menentukan direktori kerja untuk layanan. Ini adalah direktori di mana aplikasi Anda berada.
+WorkingDirectory: Menentukan direktori kerja untuk service, yaitu /home/della/venv/tugas
 
-Environment: Menentukan variabel lingkungan. Dalam hal ini, PYTHONPATH diatur untuk memastikan bahwa direktori yang berisi paket Python diambil dengan benar.
+Environment: Menentukan variabel lingkungan. Dalam hal ini, PYTHONPATH diatur untuk memastikan bahwa direktori yang berisi paket Python diambil dengan benar yakni 1lib/python3.12/site-packages
 
 ExecStart: Menentukan perintah untuk menjalankan layanan. Ini menjalankan uvicorn dengan aplikasi yang ditentukan (main:app), dengan opsi untuk memuat ulang secara otomatis dan mendengarkan pada port 7888.
 
 [Install]
 
-WantedBy: Menentukan target di mana unit ini diaktifkan. multi-user.target biasanya digunakan untuk layanan yang berjalan di latar belakang.
+WantedBy: Menentukan target di mana unit ini diaktifkan. multi-user,target biasanya digunakan untuk layanan yang berjalan di latar belakang.
 
 ## Menjalankan perintah daemon
 ```bash
@@ -67,8 +67,10 @@ $ sudo systemctl status della.service
 ## Bukti Daemon berjalan 
 
 berikut bukti menjalankan daemon 
+
 ![gambardaemon](https://github.com/delsskom/bukti-daemon-berjalan/blob/main/bukti%20sc%20menjalankan%20daemon.jpg?raw=true)
 
+bukti web 
 ![gambardaemon](https://github.com/delsskom/bukti-daemon-berjalan/blob/main/Screenshot%202024-10-31%20140020.png?raw=true)
 
 ## Menghentikan layanan operasi della.service
