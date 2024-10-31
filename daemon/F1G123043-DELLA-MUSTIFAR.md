@@ -66,5 +66,5 @@ $ sudo systemctl status della.service
 ```
 ## Bukti Daemon berjalan 
 
-![Gambar Daemon](images/daemon.png)
+
 
