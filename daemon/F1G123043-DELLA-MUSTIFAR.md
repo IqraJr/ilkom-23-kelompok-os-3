@@ -69,3 +69,4 @@ $ sudo systemctl status della.service
 berikut bukti menjalankan daemon 
 ![image] (![alt text](image.png))
 
+![alt text](image-1.png)
