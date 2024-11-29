@@ -1,5 +1,7 @@
 # LANGKAH-LANGKAH PEMBUATAN DAEMON PROCESS
 
+Daemon adalah sebuah proses yang berjalan di latar belakang pada sistem operasi, biasanya tanpa interaksi langsung dengan pengguna. Daemon sering digunakan untuk menjalankan layanan atau tugas yang berkelanjutan seperti server web, pengelolaan log, atau layanan jaringan.
+
 Berikut tahapannya :
 
 ## Buat file.service
