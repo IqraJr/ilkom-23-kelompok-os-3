@@ -67,7 +67,7 @@ $ sudo systemctl start della.service
 $ sudo systemctl status della.service
 ```
 ## Bukti Daemon berjalan 
-menambahkan gambar pada daemon process
+
 
 berikut bukti menjalankan daemon process
 
@@ -77,6 +77,7 @@ bukti website hello word
 
 ![gambardaemon](https://github.com/delsskom/bukti-daemon-berjalan/blob/main/Screenshot%202024-10-31%20140020.png?raw=true)
 
+menambahkan gambar pada daemon process
 
 ## Menghentikan layanan operasi della.service
 ```bash
