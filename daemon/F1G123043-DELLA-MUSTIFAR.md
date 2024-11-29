@@ -10,7 +10,7 @@ $ sudo touch /etc/systemd/system/della.service
 ```
 
 touch fungsinya untuk membuat file.service
-
+git 
 ## Edit File .service
 Setelah membuat file, buka file tersebut menggunakan editor teks seperti nano atau vim untuk menambahkan konfigurasi service.
 
