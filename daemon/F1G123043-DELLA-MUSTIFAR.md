@@ -67,8 +67,9 @@ $ sudo systemctl start della.service
 $ sudo systemctl status della.service
 ```
 ## Bukti Daemon berjalan 
+menambahkan gambar pada daemon process
 
-berikut bukti menjalankan daemon 
+berikut bukti menjalankan daemon process
 
 ![gambardaemon](https://github.com/delsskom/bukti-daemon-berjalan/blob/main/bukti%20sc%20menjalankan%20daemon.jpg?raw=true)
 
@@ -81,3 +82,5 @@ bukti website hello word
 ```bash
 $ sudo systemctl stop della.service
 ```
+
+fungsinya agar daemon yang berjalan di belakang layar dapat terhenti dengan tujuan menjaga memori agar tidak berkurang
