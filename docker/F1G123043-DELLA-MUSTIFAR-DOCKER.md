@@ -94,4 +94,6 @@ http://localhost:5000
 # MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
 ![gambardocker] (https://github.com/delsskom/GAMBAR-STATUS-DOCKER/commit/f8018457df06e956d38915195a5f9af298ac1f31)
 
+# MENAMPILKAN BUKTI DOCKER BERJALAN
+![gambardocker] (https://github.com/delsskom/GAMBAR-STATUS-DOCKER/commit/c434196f1d509107a765fe7c4c01d3fa9eb4a1b6)
 
