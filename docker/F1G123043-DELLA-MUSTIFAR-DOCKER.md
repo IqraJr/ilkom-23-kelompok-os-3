@@ -92,6 +92,6 @@ $ docker run -d -p 5000:5000 b3ba74c3787d
 http://localhost:5000
 
 # MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
-![gambardocker] (https://github.com/delsskom/GAMBAR-STATUS-DOCKER.git)
+![gambardocker] (https://github.com/delsskom/GAMBAR-STATUS-DOCKER/commit/f8018457df06e956d38915195a5f9af298ac1f31)
 
 
