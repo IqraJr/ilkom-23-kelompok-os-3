@@ -70,10 +70,11 @@ $ docker run -d -p 8080:80 os-app
 http://localhost:8080
 
 # MENAMPILKAN CARA RUNNING CONTAINER, STATUS DOCKER TELAH BERJALAN, DAN STOP CONTAINER:
-![gambardocker] (https://drive.google.com/file/d/1vbabcrSyPvQW466Syh6eB7VMdATivKiA/view?usp=drive_link)
+![gambardocker] (https://drive.google.com/uc?id=1vbabcrSyPvQW466Syh6eB7VMdATivKiA)
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-![gambardocker] (https://drive.google.com/file/d/1S5MrX86l2euIf7Cs77enylsV2X1nWZSB/view?usp=drive_link)
+![gambardocker](https://drive.google.com/uc?id=1S5MrX86l2euIf7Cs77enylsV2X1nWZSB)
+
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
