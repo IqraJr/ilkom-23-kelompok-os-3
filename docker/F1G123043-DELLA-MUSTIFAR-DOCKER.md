@@ -92,10 +92,10 @@ $ docker run -d -p 5000:5000 b3ba74c3787d
 http://localhost:5000
 
 # MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
-![gambardocker] (https://github.com/delsskom/GAMBAR-STATUS-DOCKER/commit/f8018457df06e956d38915195a5f9af298ac1f31)
+![gambardocker] (https://drive.google.com/file/d/1p9ggqytBCGcX40GsG9MZqMmgFhL-VMbI/view?usp=sharing)
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-![gambardocker] (https://github.com/delsskom/GAMBAR-STATUS-DOCKER/commit/c434196f1d509107a765fe7c4c01d3fa9eb4a1b6)
+![gambardocker] (https://drive.google.com/file/d/1H5cmME0g7XrqJXG06LIa1KE25jv2Um-I/view?usp=sharing)
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
