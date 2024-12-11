@@ -25,7 +25,8 @@ FROM nginx:latest
 COPY ./html /usr/share/nginx/html/
 
 # Mengekspos port 80 agar bisa diakses dari luar
-EXPOSE 80
+EXPOSE 80AINER:
+![gambardocker] (https://drive.google.com/uc?id=1vbabcrSyPvQW466Syh6eB7VMdATivKiA)
 ```
 # BUAT FOLDER TEMPAT HTML
 ```bash
@@ -69,8 +70,8 @@ $ docker run -d -p 8080:80 os-app
 # AKSES APLIKASI DI BROWSER
 http://localhost:8080
 
-# MENAMPILKAN CARA RUNNING CONTAINER, STATUS DOCKER TELAH BERJALAN, DAN STOP CONTAINER:
-![gambardocker] (https://drive.google.com/uc?id=1vbabcrSyPvQW466Syh6eB7VMdATivKiA)
+# MENAMPILKAN CARA RUNNING CONTAINER, STATUS DOCKER TELAH BERJALAN, DAN STOP CONT
+![gambardocker](https://drive.google.com/uc?id=1vbabcrSyPvQW466Syh6eB7VMdATivKiA)
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
 ![gambardocker](https://drive.google.com/uc?id=1S5MrX86l2euIf7Cs77enylsV2X1nWZSB)
