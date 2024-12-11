@@ -106,3 +106,8 @@ $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 ```bash
 $ sudo systemctl stop docker
 ```
+# PERINTAH UNTUK MENCEGAH DOCKER AGAR TIDAK OTOMATIS DI MULAI
+```bash
+$ sudo systemctl disable docker.service
+sudo systemctl disable docker.socket
+```
