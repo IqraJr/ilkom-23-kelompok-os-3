@@ -95,6 +95,13 @@ http://localhost:5000
 ![gambardocker] (https://github.com/delsskom/GAMBAR-STATUS-DOCKER/commit/f8018457df06e956d38915195a5f9af298ac1f31)
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-menambahkan gambar
 ![gambardocker] (https://github.com/delsskom/GAMBAR-STATUS-DOCKER/commit/c434196f1d509107a765fe7c4c01d3fa9eb4a1b6)
 
+# MENGHENTIKAN KONTAINER YANG BERJALAN
+```bash
+$ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
+```
+# MENGHENTIKAN DOCKER DI LINUX 
+```bash
+$ sudo systemctl stop docker
+```
