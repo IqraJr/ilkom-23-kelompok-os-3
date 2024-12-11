@@ -2,283 +2,82 @@ LANGKAH-LANGKAH MENJALANKAN DOCKER DI LINUX
 
 # BUAT FOLDER DOCKER:
 ```bash
-$ mkdir docker-project
+$ mkdir os
 ```
-
 # BERPINDAH KE FOLDER:
 ```bash
-$ cd docker-project
+$ cd os
 ```
-
-# MENGEDIT ISI FILE:
-```bash
-$ nano app.py
-```
-
-# ISI FILE app.py:
-```bash
-$ from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Hello, Docker!"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
-
-```
-
-# MEMBUAT FILE requirements.txt:
-```bash
-$ touch requirements.txt
-```
-# MENGISI FILE requirements.txt:
-```bash
-$ flask
-```
-# MEMBUAT Dockerfile:
+# BUAT DOCKERFILE
 ```bash
 $ touch Dockerfile
 ```
-
-# MENGISI FILE Dockerfile:
+# MENGEDIT ISI DOCKERFILe
 ```bash
-$ # Menggunakan image Python resmi
-FROM python:3.9-slim
+$ nano Dockerfile
+```
+# ISI DOCKERFILE
+```bash
+# Menggunakan image Nginx resmi dari Docker Hub
+FROM nginx:latest
 
-# Menetapkan direktori kerja di container
-WORKDIR /app
+# Menyalin file HTML ke dalam direktori default Nginx
+COPY ./html /usr/share/nginx/html/
 
-# Menyalin file dependensi ke dalam container
-COPY requirements.txt requirements.txt
-
-# Menginstal dependensi Python
-RUN pip install -r requirements.txt
-
-# Menyalin semua file proyek ke dalam container
-COPY . .
-
-# Menentukan port untuk aplikasi Flask
-EXPOSE 5000
-
-# Menjalankan aplikasi
-CMD ["python", "app.py"]
+# Mengekspos port 80 agar bisa diakses dari luar
+EXPOSE 80
+```
+# BUAT FOLDER TEMPAT HTML
+```bash
+$ mkdir html
+```
+# BUAT FILE INDEX DI DALAM FOLDER HTML:
+```bash
+$ touch html/index.html
+```
+# MENGEDIT ISI FILE INDEX YANG ADA DI DIDALAM FOLDER HTML:
+```bash
+$ nano html/index.html
 ```
 
-# MEMBUAT FILE .dockerignore:
+# ISI FILE index.html:
 ```bash
-$ touch .dockerignore
-```
-# ISI FILE .dockerignore:
-```bash
-$ __pycache__/
-*.pyc
-*.pyo
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Nginx</title>
+</head>
+<body>
+    <h1>Hello, Docker dan Nginx!</h1>
+    <p>Ini adalah halaman HTML sederhana yang dilayani oleh Nginx di dalam Docker container.</p>
+</body>
+</html>
 ```
 
 #  BANGUN Docker Image:
 ```bash
-$ docker build -t flask-app .
+$ docker build -t os-app .
 ```
 
 # MENJALANKAN KONTAINER:
 ```bash
-$ docker run -d -p 5000:5000 b3ba74c3787d
-```
-
-# AKSES APLIKASI DI BROWSER
-LANGKAH-LANGKAH MENJALANKAN DOCKER DI LINUX
-
-# BUAT FOLDER DOCKER:
-```bash
-$ mkdir docker-project
-```
-
-# BERPINDAH KE FOLDER:
-```bash
-$ cd docker-project
-```
-
-# MENGEDIT ISI FILE:
-```bash
-$ nano app.py
-```
-
-# ISI FILE app.py:
-```bash
-$ from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Hello, Docker!"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
-
-```
-
-# MEMBUAT FILE requirements.txt:
-```bash
-$ touch requirements.txt
-```
-# MENGISI FILE requirements.txt:
-```bash
-$ flask
-```
-# MEMBUAT Dockerfile:
-```bash
-$ touch Dockerfile
-```
-
-# MENGISI FILE Dockerfile:
-```bash
-$ # Menggunakan image Python resmi
-FROM python:3.9-slim
-
-# Menetapkan direktori kerja di container
-WORKDIR /app
-
-# Menyalin file dependensi ke dalam container
-COPY requirements.txt requirements.txt
-
-# Menginstal dependensi Python
-RUN pip install -r requirements.txt
-
-# Menyalin semua file proyek ke dalam container
-COPY . .
-
-# Menentukan port untuk aplikasi Flask
-EXPOSE 5000
-
-# Menjalankan aplikasi
-CMD ["python", "app.py"]
-```
-
-# MEMBUAT FILE .dockerignore:
-```bash
-$ touch .dockerignore
-```
-# ISI FILE .dockerignore:
-```bash
-$ __pycache__/
-*.pyc
-*.pyo
-```
-
-#  BANGUN Docker Image:
-```bash
-$ docker build -t flask-app .
-```
-
-# MENJALANKAN KONTAINER:
-```bash
-$ docker run -d -p 5000:5000 b3ba74c3787d
-```
-
-# AKSES APLIKASI DI BROWSER
-LANGKAH-LANGKAH MENJALANKAN DOCKER DI LINUX
-
-# BUAT FOLDER DOCKER:
-```bash
-$ mkdir docker-project
-```
-
-# BERPINDAH KE FOLDER:
-```bash
-$ cd docker-project
-```
-
-# MENGEDIT ISI FILE:
-```bash
-$ nano app.py
-```
-
-# ISI FILE app.py:
-```bash
-$ from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Hello, Docker!"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
-
-```
-
-# MEMBUAT FILE requirements.txt:
-```bash
-$ touch requirements.txt
-```
-# MENGISI FILE requirements.txt:
-```bash
-$ flask
-```
-# MEMBUAT Dockerfile:
-```bash
-$ touch Dockerfile
-```
-
-# MENGISI FILE Dockerfile:
-```bash
-$ # Menggunakan image Python resmi
-FROM python:3.9-slim
-
-# Menetapkan direktori kerja di container
-WORKDIR /app
-
-# Menyalin file dependensi ke dalam container
-COPY requirements.txt requirements.txt
-
-# Menginstal dependensi Python
-RUN pip install -r requirements.txt
-
-# Menyalin semua file proyek ke dalam container
-COPY . .
-
-# Menentukan port untuk aplikasi Flask
-EXPOSE 5000
-
-# Menjalankan aplikasi
-CMD ["python", "app.py"]
-```
-
-# MEMBUAT FILE .dockerignore:
-```bash
-$ touch .dockerignore
-```
-# ISI FILE .dockerignore:
-```bash
-$ __pycache__/
-*.pyc
-*.pyo
-```
-
-#  BANGUN Docker Image:
-```bash
-$ docker build -t flask-app .
-```
-
-# MENJALANKAN KONTAINER:
-```bash
-$ docker run -d -p 5000:5000 b3ba74c3787d
+$ docker run -d -p 8080:80 os-app
 ```
 
 # AKSES APLIKASI DI BROWSER
 http://localhost:8080/
 
-# MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
+# MENAMPILKAN CARA RUNNING CONTAINER, STATUS DOCKER TELAH BERJALAN, DAN STOP CONTAINER:
 ![gambardocker](https://drive.google.com/uc?id=1JffhDp2zRwOtgp8eueN_9QOYrDVWCAGK)
+
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
 ![gambardocker](https://drive.google.com/uc?id=1Ji52vq7cXG__TpfjK7lNqFb2TXhp5hwj)
 
 
-
-#:
+# MENGHENTIKAN KONTAINER YANG BERJALAN
+```bash
+$ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
+```
