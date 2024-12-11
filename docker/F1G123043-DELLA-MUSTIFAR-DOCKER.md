@@ -92,10 +92,11 @@ $ docker run -d -p 5000:5000 b3ba74c3787d
 http://localhost:5000
 
 # MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
-![gambardocker] (https://drive.google.com/file/d/1p9ggqytBCGcX40GsG9MZqMmgFhL-VMbI/view?usp=sharing)
+![gambardocker](https://drive.google.com/uc?id=1p9ggqytBCGcX40GsG9MZqMmgFhL-VMbI)
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-![gambardocker] (https://drive.google.com/file/d/1H5cmME0g7XrqJXG06LIa1KE25jv2Um-I/view?usp=sharing)
+![gambardocker](https://drive.google.com/uc?id=1H5cmME0g7XrqJXG06LIa1KE25jv2Um-I)
+
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
@@ -104,4 +105,9 @@ $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 # MENGHENTIKAN DOCKER DI LINUX 
 ```bash
 $ sudo systemctl stop docker
+```
+# PERINTAH UNTUK MENCEGAH DOCKER AGAR TIDAK OTOMATIS DI MULAI
+```bash
+$ sudo systemctl disable docker.service
+sudo systemctl disable docker.socket
 ```
