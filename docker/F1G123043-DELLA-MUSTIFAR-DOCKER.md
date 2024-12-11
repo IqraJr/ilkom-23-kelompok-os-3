@@ -92,10 +92,11 @@ $ docker run -d -p 5000:5000 b3ba74c3787d
 http://localhost:5000
 
 # MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
-![gambardocker] (https://drive.google.com/file/d/1p9ggqytBCGcX40GsG9MZqMmgFhL-VMbI/view?usp=sharing)
+![gambardocker](https://drive.google.com/uc?id=1p9ggqytBCGcX40GsG9MZqMmgFhL-VMbI)
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-![gambardocker] (https://drive.google.com/file/d/1H5cmME0g7XrqJXG06LIa1KE25jv2Um-I/view?usp=sharing)
+![gambardocker](https://drive.google.com/uc?id=1H5cmME0g7XrqJXG06LIa1KE25jv2Um-I)
+
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
