@@ -95,6 +95,12 @@ $ docker build -t flask-app .
 ```bash
 $ docker run -d -p 5000:5000 b3ba74c3787d
 ```
+# MENAMPILKAN KONTAINER YANG AKTIF
+```bash
+$ docker ps
+```
+![gambardocker](https://drive.google.com/uc?id=1I4FtFMzlInXRoQYQTp9p49guL_T7n59o)
+
 
 # AKSES APLIKASI DI BROWSER
 ```bash
