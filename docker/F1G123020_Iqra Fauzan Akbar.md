@@ -2,11 +2,11 @@
 ## 1. MEMBUAT IMAGES DAN CONTAINER PADA DOCKER  
 ### MEMBUAT FOLDER DOCKER DENGAN MENGGUNAKAN COMMAND WSL
 ```bash
-$ mkdir docker4
+$ mkdir docker3
 ```
-### PINDAH KE FOLDER docker4 
+### PINDAH KE FOLDER docker3
 ```bash
-$ cd docker4
+$ cd docker3
 ```
 ### MEMBUAT FILE DOCKERFILE
 ```bash
@@ -256,7 +256,7 @@ Sebelum kita melakukan bedah container terlebih dahulu kita akan masuk ke dalam 
 ```bash
 $ docker exec -it dockerkel4 /bin/bash
 ```
-![gambar](https://drive.google.com/uc?id=1vbtMBlgGm5BsLq14TlYeNJhSk5fUpIeO)
+![gambar](https://drive.google.com/uc?id=1d_LeLXqpEjdqRj4MNhAKTXPG7IKfLfWu)
 
 Setelah masuk ke dalam container kita akan mencoaba beberapa command dibawah ini
 ### 1. Command ls -la /
