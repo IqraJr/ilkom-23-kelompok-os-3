@@ -1,5 +1,5 @@
 # TUGAS BESAR DOCKER 
-## 1. MEMBUAT IMAGES DAN CONTAINER PADA DOCKER 
+## 1. MEMBUAT IMAGES DAN CONTAINER PADA DOCKER  
 ### MEMBUAT FOLDER DOCKER DENGAN MENGGUNAKAN COMMAND WSL
 ```bash
 $ mkdir docker4
@@ -252,7 +252,7 @@ $ docker update --cpus=2 dockerkel4
 
 ## 3. MELAKUKAN FASE BEDAH CONTAINER
 ### masuk ke dalam container 
-Sebelum kita melakukan bedah container terlebih dahulu kita akan masuk ke dalam containernya terlebih dahulu dengan command
+Sebelum kita melakukan bedah container terlebih dahulu kita akan masuk ke dalam containernya terlebih dahulu dengan command.
 ```bash
 $ docker exec -it dockerkel4 /bin/bash
 ```
