@@ -107,7 +107,7 @@ $ docker ps
 
 # AKSES LOCAL HOST DI BROWSER
 ```bash
-$ http://localhost:5000
+ http://localhost:5000
 ```
 
 # MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
@@ -150,6 +150,18 @@ $ docker exec -it vibrant_elbakyan /bin/bash
 $ cat app.py
 ``` 
 ![gambardocker](https://drive.google.com/uc?export=view&id=1ZdYANhBWAmT84sYsNEcSgjHlKLLvSocQ)
+
+2. Perintah ls (untuk melihat file dalam kontainer)
+```bash
+$ ls
+``` 
+![gambardocker](https://drive.google.com/uc?export=view&id=1qs2ntlotRoUlcmgjoQjo8QbcohCqfG1d)
+
+3. Perintah pip list (untuk melihat paket Python yang terinstal)
+```bash
+$ pip list
+``` 
+![gambardocker](https://drive.google.com/uc?export=view&id=13pS4bSNLHgpUOrvJK-5GpeWxGT8e3PLQ)
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
