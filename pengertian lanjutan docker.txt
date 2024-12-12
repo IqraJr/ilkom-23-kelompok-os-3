@@ -1,4 +1,4 @@
-Docker adalah platform yang memungkinkan pengembang untuk mengembangkan, mengirimkan, dan menjalankan aplikasi dalam kontainer. Kontainer adalah unit ringan dan portabel yang dapat menjalankan aplikasi dan semua dependensinya secara terisolasi dari lingkungan lainnya. Berikut beberapa pengertian lanjutan terkait Docker:
+Docker merupakan platform yang memungkinkan pengembang untuk mengembangkan, mengirimkan, dan menjalankan aplikasi dalam kontainer. Kontainer adalah unit ringan dan portabel yang dapat menjalankan aplikasi dan semua dependensinya secara terisolasi dari lingkungan lainnya. Berikut beberapa pengertian lanjutan terkait Docker:
 
 1. **Kontainer**: Sebuah unit standar yang mengemas kode aplikasi dan semua dependensinya, sehingga aplikasi dapat berjalan dengan konsisten di berbagai lingkungan.
 
