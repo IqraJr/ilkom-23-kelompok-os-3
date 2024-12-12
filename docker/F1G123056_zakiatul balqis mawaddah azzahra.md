@@ -81,3 +81,42 @@ http://localhost:8080
 ```bash
 $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 ```
+# MELAKUKAN PEMBATASAN MEMORI
+```bash
+$ docker run -d -p 8080:80--memory=512m --memory-swap=1g id-image
+```
+# BUKTI STATUS PEMBATASAN MEMORI
+![gambar](https://drive.google.com/uc?id=1AeQKG7MURywxa3tqjuNLRjQWqRtbFaBQ)
+
+# MELAKUKAN FASE BEDAH CONTAINER
+## 1. Command ps aux
+Menampilkan semua proses yang sedang berjalan di dalam container. Ini berguna untuk menganalisis aplikasi atau proses yang sedang dijalankan dalam container.
+```bash
+$ docker exec -it <container_id> ps aux
+```
+### Bukti Percobaan ps aux
+![gambar](https://drive.google.com/uc?id=19aTENEJrl2pAvbCH9pQydn91dzBdtkZ3)
+
+## 2. Command history
+Command ini memberikan informasi rinci tentang container, termasuk konfigurasi jaringan, mounts, environment variables, dan lainnya.
+```bash
+$ docker history <image_id>
+```
+## Bukti percobaan history
+![gambar](https://drive.google.com/uc?id=1oiex2r-9IqrXLkgja8SDcO5UGnSzLXm6)
+
+## 3. Command logs
+Untuk melihat log yang dihasilkan oleh container. Ini berguna untuk debugging atau melihat output aplikasi yang berjalan di dalam container.
+```bash
+$ docker logs <container_id>
+```
+## Bukti percobaan logs
+![gambar](https://drive.google.com/uc?id=1nj9sz-coF_N7rZnyyFf3CE_QpskvoRdP)
+
+## 4.Command masuk ke container
+Untuk masuk dan melakukan modifikasi file didalam container
+```bash
+$ docker exec -it <container_id> /bin/bash
+```
+## Bukti percobaan masuk ke container
+![gambar](https://drive.google.com/uc?id=1BHZ18OWwuP6uL_CcbM6uwSJtHaHL_TbB)
