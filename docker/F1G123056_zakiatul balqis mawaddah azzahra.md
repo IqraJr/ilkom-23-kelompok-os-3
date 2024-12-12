@@ -81,7 +81,7 @@ http://localhost:8080
 ```bash
 $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 ```
-<<<<<<< HEAD
+
 # MELAKUKAN PEMBATASAN MEMORI
 ```bash
 $ docker run -d -p 8080:80--memory=512m --memory-swap=1g id-image
@@ -121,7 +121,3 @@ $ docker exec -it <container_id> /bin/bash
 ```
 ## Bukti percobaan masuk ke container
 ![gambar](https://drive.google.com/uc?id=1BHZ18OWwuP6uL_CcbM6uwSJtHaHL_TbB)
-=======
-
-# MENGHENTIKAN DOCKER
->>>>>>> b04e465a91fb55d45cb317e436e54f4ff26e2080
