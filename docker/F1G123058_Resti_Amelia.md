@@ -104,12 +104,10 @@ $ docker history <image_id>
 ## Bukti percobaan history
 Link gambar : (https://drive.google.com/file/d/1Lq2e4zrcYOW7wuR4NQqOms_hpgu3gQmG/view?usp=drivesdk)
 
-## 4.Command masuk ke container
+## 3.Command masuk ke container
 Untuk masuk dan melakukan modifikasi file didalam container
 ```bash
 $ docker exec -it <container_id> /bin/bash
 ```
 ## Bukti percobaan masuk ke container
 Link gambar : (https://drive.google.com/file/d/1LtJI2NTKAFTmNeuxImYGchg9___xm_qp/view?usp=drivesdk)
-
-
