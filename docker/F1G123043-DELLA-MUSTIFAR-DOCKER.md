@@ -79,6 +79,10 @@ CMD ["python", "app.py"]
 ```bash
 $ touch .dockerignore
 ```
+# MENGEDIT FILE .dockerignore
+```bash
+$ nano .dockerignore
+```
 # ISI FILE .dockerignore:
 ```bash
 $ __pycache__/
@@ -101,7 +105,6 @@ $ docker ps
 ```
 ![gambardocker](https://drive.google.com/uc?id=1I4FtFMzlInXRoQYQTp9p49guL_T7n59o)
 
-
 # AKSES APLIKASI DI BROWSER
 ```bash
 $ http://localhost:5000
@@ -113,6 +116,17 @@ $ http://localhost:5000
 # MENAMPILKAN BUKTI DOCKER BERJALAN
 ![gambardocker](https://drive.google.com/uc?id=1H5cmME0g7XrqJXG06LIa1KE25jv2Um-I)
 
+# MELAKUKAN PEMBATASAN MEMORI DAN CPU
+```bash
+$ docker update --memory="256m" --memory-swap="512m" --cpus="0.5" vibrant_elbakyan
+```
+```bash
+$ docker inspect vibrant_elbakyan
+```
+```bash
+$ docker stats --no-stream --format "table {{.Name}}\t{{.ID}}\t{{.CPUPerc}}\t{{.MemPerc}}\t{{.MemUsage}}"
+```
+![gambardocker](https://drive.google.com/uc?id=1Hp-tMjlgoR3Xo8TJNSxthuBVYo8dzqTk)
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
