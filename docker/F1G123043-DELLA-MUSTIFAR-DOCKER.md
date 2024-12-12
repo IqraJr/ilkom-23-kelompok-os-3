@@ -111,7 +111,7 @@ $ docker ps
 ```
 
 # MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
-![gambardocker](https://drive.google.com/uc?id=1p9ggqytBCGcX40GsG9MZqMmgFhL-VMbI)
+![Gambar Docker](https://drive.google.com/uc?export=view&id=1qs2ntlotRoUlcmgjoQjo8QbcohCqfG1d)
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
 ![gambardocker](https://drive.google.com/uc?id=1H5cmME0g7XrqJXG06LIa1KE25jv2Um-I)
