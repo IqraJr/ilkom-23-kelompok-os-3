@@ -1,7 +1,7 @@
 **Thread** dan **proses** adalah dua konsep penting dalam pemrograman komputer dan sistem operasi, terutama dalam konteks menjalankan tugas secara paralel atau bersamaan. Berikut adalah pengertian dan perbedaan antara keduanya:
 
 ### 1. **Proses:**
-   - **Definisi**: Proses adalah instance atau salinan dari sebuah program yang sedang dieksekusi. Proses memiliki memori sendiri yang terisolasi (termasuk ruang memori untuk kode, data, dan tumpukan) serta sumber daya lain seperti file yang dibuka dan variabel lingkungan.
+   - **Definisi**: Proses adalah instance atau salinan dari sebuah program yang sedang dieksekusi. Proses memiliki memori sendiri yang saling terisolasi (termasuk ruang memori untuk kode, data, dan tumpukan) serta sumber daya lain seperti file yang dibuka dan variabel lingkungan.
    - **Karakteristik**:
      - **Isolasi dalam Memori**: Setiap proses memiliki ruang memori yang terpisah, sehingga data antar proses tidak bisa saling diakses langsung. Ini memberikan keamanan dan stabilitas, karena satu proses tidak dapat secara langsung memodifikasi data dari proses lain.
      - **Overhead Lebih Tinggi**: Karena setiap proses membutuhkan alokasi memori sendiri dan sumber daya sistem, membuat dan mengelola proses cenderung lebih berat dibandingkan thread.
