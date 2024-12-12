@@ -181,6 +181,11 @@ $ docker stats
 ```
 ![gambardocker](https://drive.google.com/uc?export=view&id=1M2Pi50Dh0ejPIU9pPKbqAehr3TmKLgaE)
 
+# E. docker top vibrant_elbakyan (untuk menampilkan proses yang sedang berjalan di dalam kontainer)
+```bash
+$ docker top vibrant_elbakyan
+```
+![gambardocker](https://drive.google.com/uc?export=view&id=1EyuYgJaH-Gl65DisJ2KrofqZNZKc8MVs)
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
