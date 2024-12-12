@@ -34,6 +34,10 @@ if __name__ == "__main__":
 ```bash
 $ touch requirements.txt
 ```
+# MENGEDIT FILE  requirements.txt:
+```bash
+$ nano requirements.txt
+```
 # MENGISI FILE requirements.txt:
 ```bash
 $ flask
@@ -41,6 +45,10 @@ $ flask
 # MEMBUAT Dockerfile:
 ```bash
 $ touch Dockerfile
+```
+# MENGEDIT FILE Dockerfile
+```bash
+$ nano Dockerfile
 ```
 
 # MENGISI FILE Dockerfile:
@@ -89,7 +97,9 @@ $ docker run -d -p 5000:5000 b3ba74c3787d
 ```
 
 # AKSES APLIKASI DI BROWSER
-http://localhost:5000
+```bash
+$ http://localhost:5000
+```
 
 # MENAMPILKAN STATUS DOCKER TELAH BERJALAN:
 ![gambardocker](https://drive.google.com/uc?id=1p9ggqytBCGcX40GsG9MZqMmgFhL-VMbI)
