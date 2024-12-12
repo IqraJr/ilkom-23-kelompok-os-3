@@ -140,26 +140,32 @@ $ docker inspect vibrant_elbakyan --format '{{.HostConfig.NanoCpus}}'
 # MELAKUKAN FASE BEDAH CONTAINER
 Proses menganalisis atau memeriksa kontainer Docker untuk memahami lebih dalam bagaimana kontainer itu berjalan, memeriksa statusnya, serta melakukan diagnosa dan pemecahan masalah
 
-Masuk ke dalam kontainer Docker yang sedang berjalan dan menjalankan shell interaktif (bash)
+# A. Masuk ke dalam kontainer Docker yang sedang berjalan dan menjalankan shell interaktif (bash)
 
 ```bash
 $ docker exec -it vibrant_elbakyan /bin/bash
 ```
-1. Perintah cat app.py (untuk melihat isi file app.py)
+# 1. Perintah cat app.py (untuk melihat isi file app.py)
 ```bash
 $ cat app.py
 ``` 
 ![gambardocker](https://drive.google.com/uc?export=view&id=1ZdYANhBWAmT84sYsNEcSgjHlKLLvSocQ)
 
-2. Perintah ls (untuk melihat file dalam kontainer)
+# 2. Perintah ls (untuk melihat file dalam kontainer)
 ```bash
 $ ls
 ``` 
 ![gambardocker](https://drive.google.com/uc?export=view&id=1qs2ntlotRoUlcmgjoQjo8QbcohCqfG1d)
 
-3. Perintah pip list (untuk melihat paket Python yang terinstal)
+# 3. Perintah pip list (untuk melihat paket Python yang terinstall)
 ```bash
 $ pip list
+``` 
+![gambardocker](https://drive.google.com/uc?export=view&id=13pS4bSNLHgpUOrvJK-5GpeWxGT8e3PLQ)
+
+# B. Melihat log kontainer yang sedang berjalan atau yang telah berhenti
+```bash
+docker logs vibrant_elbakyan
 ``` 
 ![gambardocker](https://drive.google.com/uc?export=view&id=13pS4bSNLHgpUOrvJK-5GpeWxGT8e3PLQ)
 
