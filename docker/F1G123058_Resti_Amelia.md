@@ -81,3 +81,10 @@ http://localhost:8080/
 ```bash
 $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 ```
+# MELAKUKAN PEMBATASAN MEMORI
+```bash
+$ docker run -d -p 8080:80--memory=500m os-app
+```
+# BUKTI STATUS PEMBATASAN MEMORI
+Link gambar : (https://drive.google.com/file/d/1LQrsDZ_gxE1_caRxhnYlh-Hqj9o4qhrh/view?usp=drivesdk)
+
