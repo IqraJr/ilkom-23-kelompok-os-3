@@ -74,7 +74,7 @@ Link gambar : (https://drive.google.com/file/d/1LuSi1LucrpF54qQHF0GKCrSepz9L0O_e
 
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-![gambardocker](https://drive.google.com/uc?id=1Ji52vq7cXG__TpfjK7lNqFb2TXhp5hwj)
+Link gambar : (https://drive.google.com/file/d/1M8TB-DdQarX9kSIFvBDcedBqfBp6ZhAq/view?usp=drivesdk)
 
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
