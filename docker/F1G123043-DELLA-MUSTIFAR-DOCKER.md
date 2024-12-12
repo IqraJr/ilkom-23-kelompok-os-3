@@ -163,17 +163,24 @@ $ pip list
 ``` 
 ![gambardocker](https://drive.google.com/uc?export=view&id=13pS4bSNLHgpUOrvJK-5GpeWxGT8e3PLQ)
 
-# B. Melihat log kontainer yang sedang berjalan atau yang telah berhenti
+# B. docker logs vibrant_elbakyan (untuk melihat log kontainer yang sedang berjalan atau yang telah berhenti)
 ```bash
 $ docker logs vibrant_elbakyan
 ``` 
 ![gambardocker](https://drive.google.com/uc?export=view&id=13pS4bSNLHgpUOrvJK-5GpeWxGT8e3PLQ)
 
-# C. Menampilkan perubahan yang telah dilakukan pada sistem file di dalam kontainer sejak pertama kali dijalankan
+# C. docker diff vibrant_elbakyan  (untuk menampilkan perubahan yang telah dilakukan pada sistem file di dalam kontainer sejak pertama kali dijalankan)
 ```bash
 $ docker diff vibrant_elbakyan
 ```
 ![gambardocker](https://drive.google.com/uc?export=view&id=1qYLzJ9bbEH-4SAJKNM_oNUsHUEhGf2mj)
+
+# D. docker stats (untuk menampilkan statistik penggunaan CPU, memori, jaringan, dan disk dari semua kontainer yang sedang berjalan) 
+```bash
+$ docker stats
+```
+![gambardocker](https://drive.google.com/uc?export=view&id=1M2Pi50Dh0ejPIU9pPKbqAehr3TmKLgaE)
+
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
