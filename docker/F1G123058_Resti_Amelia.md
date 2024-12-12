@@ -96,4 +96,13 @@ $ docker exec -it <container_id> ps aux
 ### Bukti Percobaan ps aux
 Link gambar : (https://drive.google.com/file/d/1LpFOpT-zx-YFsgPlr7lMR8g1R9hlHgkQ/view?usp=drivesdk)
 
+## 2. Command history
+Command ini memberikan informasi rinci tentang container, termasuk konfigurasi jaringan, mounts, environment variables, dan lainnya.
+```bash
+$ docker history <image_id>
+```
+## Bukti percobaan history
+Link gambar : (https://drive.google.com/file/d/1Lq2e4zrcYOW7wuR4NQqOms_hpgu3gQmG/view?usp=drivesdk)
+
+
 
