@@ -139,6 +139,7 @@ $ docker inspect vibrant_elbakyan --format '{{.HostConfig.NanoCpus}}'
 
 # MELAKUKAN FASE BEDAH CONTAINER
 Proses menganalisis atau memeriksa kontainer Docker untuk memahami lebih dalam bagaimana kontainer itu berjalan, memeriksa statusnya, serta melakukan diagnosa dan pemecahan masalah
+
 Masuk ke dalam kontainer Docker yang sedang berjalan dan menjalankan shell interaktif (bash)
 
 ```bash
@@ -157,6 +158,7 @@ $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 # MENGHENTIKAN DOCKER DI LINUX 
 ```bash
 $ sudo systemctl stop docker
+```
 
 # PERINTAH UNTUK MENCEGAH DOCKER AGAR TIDAK OTOMATIS DI MULAI
 ```bash
