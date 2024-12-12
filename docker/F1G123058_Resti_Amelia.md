@@ -70,7 +70,7 @@ $ docker run -d -p 8080:80 os-app
 http://localhost:8080/
 
 # MENAMPILKAN CARA RUNNING CONTAINER, STATUS DOCKER TELAH BERJALAN, DAN STOP CONTAINER:
-![gambardocker](https://drive.google.com/uc?id=1JffhDp2zRwOtgp8eueN_9QOYrDVWCAGK).
+Link gambar : (https://drive.google.com/file/d/1LuSi1LucrpF54qQHF0GKCrSepz9L0O_e/view?usp=drivesdk)
 
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
