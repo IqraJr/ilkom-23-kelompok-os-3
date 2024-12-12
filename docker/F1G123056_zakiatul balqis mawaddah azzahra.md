@@ -86,12 +86,14 @@ $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 ```bash
 $ docker run -d -p 8080:80--memory=512m --memory-swap=1g id-image
 ```
+
+# BUKTI STATUS PEMBATASAN MEMORI
+![gambar](https://drive.google.com/uc?id=1AeQKG7MURywxa3tqjuNLRjQWqRtbFaBQ)
+
 # MELAKUKAN PEMBATASAN CPU
 ```bash
 $ docker run -d -p 8080:80 --cpus=1 id-image
 ```
-# BUKTI STATUS PEMBATASAN MEMORI
-![gambar](https://drive.google.com/uc?id=1AeQKG7MURywxa3tqjuNLRjQWqRtbFaBQ)
 
 # MELAKUKAN FASE BEDAH CONTAINER
 ## 1. Command ps aux
