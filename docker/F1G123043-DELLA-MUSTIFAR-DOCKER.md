@@ -165,9 +165,15 @@ $ pip list
 
 # B. Melihat log kontainer yang sedang berjalan atau yang telah berhenti
 ```bash
-docker logs vibrant_elbakyan
+$ docker logs vibrant_elbakyan
 ``` 
 ![gambardocker](https://drive.google.com/uc?export=view&id=13pS4bSNLHgpUOrvJK-5GpeWxGT8e3PLQ)
+
+# C. Menampilkan perubahan yang telah dilakukan pada sistem file di dalam kontainer sejak pertama kali dijalankan
+```bash
+$ docker diff vibrant_elbakyan
+```
+![gambardocker](https://drive.google.com/uc?export=view&id=1qYLzJ9bbEH-4SAJKNM_oNUsHUEhGf2mj)
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
