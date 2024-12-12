@@ -3,7 +3,7 @@
 ### 1. **Proses:**
    - **Definisi**: Proses adalah instance atau salinan dari sebuah program yang sedang dieksekusi. Proses memiliki memori sendiri yang terisolasi (termasuk ruang memori untuk kode, data, dan tumpukan) serta sumber daya lain seperti file yang dibuka dan variabel lingkungan.
    - **Karakteristik**:
-     - **Isolasi Memori**: Setiap proses memiliki ruang memori yang terpisah, sehingga data antar proses tidak bisa saling diakses langsung. Ini memberikan keamanan dan stabilitas, karena satu proses tidak dapat secara langsung memodifikasi data dari proses lain.
+     - **Isolasi dalam Memori**: Setiap proses memiliki ruang memori yang terpisah, sehingga data antar proses tidak bisa saling diakses langsung. Ini memberikan keamanan dan stabilitas, karena satu proses tidak dapat secara langsung memodifikasi data dari proses lain.
      - **Overhead Lebih Tinggi**: Karena setiap proses membutuhkan alokasi memori sendiri dan sumber daya sistem, membuat dan mengelola proses cenderung lebih berat dibandingkan thread.
      - **Komunikasi**: Jika proses perlu berkomunikasi dengan proses lain, digunakan mekanisme seperti *Inter-Process Communication* (IPC), yang bisa berupa *pipes*, *sockets*, atau shared memory.
      - **Contoh**: Misalnya, saat membuka aplikasi pengolah kata, sistem operasi membuat proses baru yang menjalankan program tersebut.
