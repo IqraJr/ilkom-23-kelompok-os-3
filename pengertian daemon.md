@@ -24,7 +24,7 @@ Banyak daemon bertugas untuk mendengarkan permintaan di jaringan, seperti server
 ### 2. Pekerjaan Berkala
 Beberapa daemon menjalankan tugas berkala, seperti cron daemon yang mengatur penjadwalan tugas otomatis pada waktu tertentu.
 
-### 3. **Pengelolaan Sumber Daya**
+### 3. Pengelolaan Sumber Daya**
 Daemon dapat mengelola dan memonitor sumber daya sistem, seperti daemon untuk manajemen sistem file atau pengawasan kinerja.
 
 ### 4. **Layanan Sistem**
