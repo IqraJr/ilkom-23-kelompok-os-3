@@ -29,7 +29,7 @@ Docker adalah teknologi kontainerisasi yang memberikan banyak kelebihan, terutam
 ## 9. Ekosistem yang Luas
    Docker Hub menyediakan berbagai *pre-built images* yang dapat digunakan untuk mempercepat pengembangan. Selain itu, komunitas yang aktif mempermudah dalam mendapatkan dukungan dan solusi.
 
-## 10. **Kompatibilitas Lintas Platform**
+## 10. Kompatibilitas Lintas Platform**
    Docker dapat dijalankan di berbagai platform seperti Linux, macOS, dan Windows, sehingga pengembang dapat bekerja di berbagai sistem operasi tanpa masalah.
 
 Dengan kelebihan-kelebihan ini, Docker menjadi salah satu solusi populer untuk pengemasan, pengiriman, dan menjalankan aplikasi secara efisien.
