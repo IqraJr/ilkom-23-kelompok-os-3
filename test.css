@@ -5,6 +5,10 @@
     font-family: poppins, arial,sans-serif;
 }
 
+input:focus {
+    border-color: #4CAF50;
+}
+
 body {
     display: flex;
     justify-content: center;
