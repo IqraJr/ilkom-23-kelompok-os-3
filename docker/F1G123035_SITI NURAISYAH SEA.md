@@ -134,3 +134,9 @@ docker exec -it agitated_greider /bin/bash
 ```
 ![image](https://github.com/user-attachments/assets/906467b4-24e4-4b48-b947-2424c96f3bf5)
 
+ Perintah menunjukkan isi direktori container
+ Perintah untuk masuk ke dalam kontainer yang sedang di jalankan
+```bash
+ls
+```
+ 
