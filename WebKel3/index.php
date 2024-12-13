@@ -41,6 +41,8 @@
             <div class="member">
             <div class="icon"><i class="fas fa-user-circle"></i></div>
                 <h2>Zakiatul Balqis Mawaddah Azahra</h2>
+                <p>F1G123056</p>
+            </div>
             
   
 </body>
