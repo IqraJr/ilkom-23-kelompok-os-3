@@ -17,7 +17,7 @@ Docker adalah teknologi kontainerisasi yang memberikan banyak kelebihan, terutam
 ## 5. Pengelolaan Versi yang Baik
    *Docker Image* dapat versi-kan, sehingga pengembang dapat dengan mudah kembali ke versi sebelumnya jika ada masalah. Setiap perubahan pada *Dockerfile* dapat di-*track* dan di-*roll back*.
 
-## 6. **Isolasi Aplikasi**
+## 6. Isolasi Aplikasi
    Setiap *container* berjalan secara terisolasi. Ini mencegah konflik antar aplikasi yang memiliki *dependency* atau konfigurasi yang berbeda.
 
 ## 7. **Keamanan**
