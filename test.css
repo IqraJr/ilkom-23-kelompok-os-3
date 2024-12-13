@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 150vh;
+    weight: 40px;
     background-color: #f0f0f0;
 }
 
@@ -31,6 +32,7 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
+    border-radius
 }
 
 label {
