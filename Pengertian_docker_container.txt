@@ -4,7 +4,7 @@ Beberapa konsep utama dari container Docker antara lain sebagai berikut:
 
 1. Isolasi: Container beroperasi secara terisolasi dari container lain dan host, menjaga keamanan dan stabilitas sistem.
 2. Ringan: Container hanya membawa komponen yang dibutuhkan oleh aplikasi, membuatnya jauh lebih ringan daripada virtual machine (VM) yang memuat seluruh sistem operasi.
-3. Portabilitas: Dengan container, aplikasi bisa dengan mudah dipindahkan antar lingkungan (seperti dari komputer pengembang ke server produksi) tanpa perubahan konfigurasi.
+3. Portabilitas: Dengan container, aplikasi bisa dengan mudah dipindahkan antar lingkungan (seperti dari komputer pengembang ke server produksi bagitupum sebaliknya) tanpa perubahan konfigurasi.
 4. Efisiensi: Container berbagi kernel sistem operasi yang sama, sehingga penggunaan sumber daya lebih efisien dibandingkan VM yang memerlukan sistem operasi terpisah.
 
 Docker menggunakan image untuk membuat dan menjalankan container. Image ini adalah blueprint atau template dari container yang memuat semua dependensi aplikasi, sehingga saat container dijalankan, ia bekerja sesuai dengan pengaturan dalam image tersebut.
