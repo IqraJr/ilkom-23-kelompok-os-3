@@ -83,9 +83,7 @@ CMD ["python", "main.py"]
 ## Langkah 5: Menambahkan file .dockerignore
 Tambahkan file `.dockerignore` untuk mengabaikan file yang tidak perlu dalam proses build.
 ```bash
-echo "__pycache__/
-*.pyc
-*.pyo" > .dockerignore
+echo "__pycache__/*.pyc*.pyo" > .dockerignore
 ```
 
 ## Langkah 6: Membuat Docker image
