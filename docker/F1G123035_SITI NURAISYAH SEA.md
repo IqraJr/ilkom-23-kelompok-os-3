@@ -103,6 +103,8 @@ Gunakan perintah berikut untuk melihat daftar container yang sedang berjalan:
 ```bash
 docker ps
 ```
+# Tampilan Cantainer Aktif
+![image](https://github.com/user-attachments/assets/391a1786-6c92-4119-a17f-47bde25bb281)
 
 ## Langkah 9: Mengakses aplikasi
 Buka browser dan akses aplikasi Flask di:
