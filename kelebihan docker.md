@@ -11,7 +11,7 @@ Docker adalah teknologi kontainerisasi yang memberikan banyak kelebihan, terutam
 ## 3. Pengembangan yang Lebih Cepat
    Pengembang dapat membangun, menguji, dan menjalankan aplikasi dalam *container* dengan cepat tanpa khawatir tentang konfigurasi lingkungan. Proses *deployment* menjadi lebih sederhana.
 
-## 4. **Skalabilitas yang Mudah**
+## 4. Skalabilitas yang Mudah**
    Dengan Docker, aplikasi dapat dengan mudah di-*scale up* atau *scale down* sesuai kebutuhan. *Orchestration tools* seperti Kubernetes mempermudah pengelolaan banyak *container* dalam skala besar.
 
 ## 5. **Pengelolaan Versi yang Baik**
