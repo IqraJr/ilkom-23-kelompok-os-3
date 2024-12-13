@@ -8,7 +8,7 @@ Docker adalah teknologi kontainerisasi yang memberikan banyak kelebihan, terutam
 ## 2. Penggunaan Sumber Daya yang Efisien
    Dibandingkan dengan *virtual machine (VM)*, Docker lebih ringan dan lebih hemat sumber daya (CPU, RAM, dan penyimpanan). *Container* berbagi kernel dengan sistem operasi host, sehingga memulai dan menjalankannya lebih cepat.
 
-## 3. **Pengembangan yang Lebih Cepat**
+## 3. Pengembangan yang Lebih Cepat**
    Pengembang dapat membangun, menguji, dan menjalankan aplikasi dalam *container* dengan cepat tanpa khawatir tentang konfigurasi lingkungan. Proses *deployment* menjadi lebih sederhana.
 
 ## 4. **Skalabilitas yang Mudah**
