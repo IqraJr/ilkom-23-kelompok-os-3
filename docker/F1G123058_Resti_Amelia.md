@@ -111,3 +111,6 @@ $ docker exec -it <container_id> /bin/bash
 ```
 ## Bukti percobaan masuk ke container
 Link gambar : (https://drive.google.com/file/d/1LtJI2NTKAFTmNeuxImYGchg9___xm_qp/view?usp=drivesdk)
+
+# Keluar dari Container
+exit
