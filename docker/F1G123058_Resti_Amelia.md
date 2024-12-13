@@ -70,14 +70,44 @@ $ docker run -d -p 8080:80 os-app
 http://localhost:8080/
 
 # MENAMPILKAN CARA RUNNING CONTAINER, STATUS DOCKER TELAH BERJALAN, DAN STOP CONTAINER:
-![gambardocker](https://drive.google.com/uc?id=1JffhDp2zRwOtgp8eueN_9QOYrDVWCAGK)
+Link gambar : (https://drive.google.com/file/d/1LuSi1LucrpF54qQHF0GKCrSepz9L0O_e/view?usp=drivesdk)
 
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-![gambardocker](https://drive.google.com/uc?id=1Ji52vq7cXG__TpfjK7lNqFb2TXhp5hwj)
+Link gambar : (https://drive.google.com/file/d/1M8TB-DdQarX9kSIFvBDcedBqfBp6ZhAq/view?usp=drivesdk)
 
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
 ```bash
 $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 ```
+# MELAKUKAN PEMBATASAN MEMORI
+```bash
+$ docker run -d -p 8080:80--memory=500m os-app
+```
+# BUKTI STATUS PEMBATASAN MEMORI
+Link gambar : (https://drive.google.com/file/d/1LQrsDZ_gxE1_caRxhnYlh-Hqj9o4qhrh/view?usp=drivesdk)
+# MELAKUKAN FASE BEDAH CONTAINER
+## 1. Command ps aux
+Menampilkan semua proses yang sedang berjalan di dalam container. Ini berguna untuk menganalisis aplikasi atau proses yang sedang dijalankan dalam container.
+```bash
+$ docker exec -it <container_id> ps aux
+```
+### Bukti Percobaan ps aux
+Link gambar : (https://drive.google.com/file/d/1LpFOpT-zx-YFsgPlr7lMR8g1R9hlHgkQ/view?usp=drivesdk)
+
+## 2. Command history
+Command ini memberikan informasi rinci tentang container, termasuk konfigurasi jaringan, mounts, environment variables, dan lainnya.
+```bash
+$ docker history <image_id>
+```
+## Bukti percobaan history
+Link gambar : (https://drive.google.com/file/d/1Lq2e4zrcYOW7wuR4NQqOms_hpgu3gQmG/view?usp=drivesdk)
+
+## 3.Command masuk ke container
+Untuk masuk dan melakukan modifikasi file didalam container
+```bash
+$ docker exec -it <container_id> /bin/bash
+```
+## Bukti percobaan masuk ke container
+Link gambar : (https://drive.google.com/file/d/1LtJI2NTKAFTmNeuxImYGchg9___xm_qp/view?usp=drivesdk)
