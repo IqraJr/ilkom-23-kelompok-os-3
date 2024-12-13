@@ -10,7 +10,7 @@ Daemon tidak memerlukan interaksi langsung dari pengguna dan biasanya dimulai sa
 ### 2. Layanan Jaringan
 Banyak daemon berfungsi sebagai server untuk memberikan layanan jaringan, seperti HTTP server (misalnya Apache), database server, dan lain-lain.
 
-### 3. Manajemen Proses**
+### 3. Manajemen Proses
 Daemon dapat mengelola proses lain, seperti monitor sistem, penjadwalan tugas, atau menangani antrian pekerjaan.
 
 ### 4. **Dinamika**
