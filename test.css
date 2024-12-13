@@ -41,6 +41,7 @@ input::placeholder {
 h2 {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
+    font-size: 24px;
     color: #333;
     border:solid #000 ;
 }
