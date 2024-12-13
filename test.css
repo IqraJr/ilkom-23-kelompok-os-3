@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 3;
     padding: 3;
-    font-family: poppins, arial;
+    font-family: poppins, arial,sans-serif;
 }
 
 body {
