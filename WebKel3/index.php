@@ -17,5 +17,6 @@
             <p>F1G123020</p>
         </div>
             <div class="member">
+            <div class="icon"><i class="fas fa-user-circle"></i></div>
   
 </body>
