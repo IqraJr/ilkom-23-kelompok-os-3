@@ -23,7 +23,7 @@ Docker adalah teknologi kontainerisasi yang memberikan banyak kelebihan, terutam
 ## 7. Keamanan
    Dengan isolasi *container*, aplikasi dalam satu *container* tidak dapat memengaruhi aplikasi di *container* lain. Keamanan tambahan juga dapat diterapkan melalui pengaturan izin dan kebijakan.
 
-## 8. **Mudah Diintegrasikan dengan CI/CD**
+## 8. Mudah Diintegrasikan dengan CI/CD**
    Docker mendukung integrasi dengan berbagai alat *Continuous Integration / Continuous Deployment (CI/CD)* seperti Jenkins, GitLab CI, dan Travis CI, sehingga mempercepat siklus pengembangan perangkat lunak.
 
 ## 9. **Ekosistem yang Luas**
