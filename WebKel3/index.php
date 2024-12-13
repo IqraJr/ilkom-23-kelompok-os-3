@@ -28,5 +28,8 @@
             </div>
         </div>
         <div class="container">
+            <div class="member">
+            <div class="icon"><i class="fas fa-user-circle"></i></div>
+            
   
 </body>
