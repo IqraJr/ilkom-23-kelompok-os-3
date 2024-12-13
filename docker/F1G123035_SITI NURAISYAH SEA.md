@@ -128,6 +128,7 @@ membatasi memori container menjadi 215MB dan menggunakan maksimal 0.5 CPU
 
 
 # 4. Bedah Container
-
-
-
+Perintah untuk masuk ke dalam kontainer yang sedang di jalankan
+```bash
+docker exec -it agitated_greider /bin/bash
+```
