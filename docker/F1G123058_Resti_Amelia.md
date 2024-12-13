@@ -70,11 +70,11 @@ $ docker run -d -p 8080:80 os-app
 http://localhost:8080/
 
 # MENAMPILKAN CARA RUNNING CONTAINER, STATUS DOCKER TELAH BERJALAN, DAN STOP CONTAINER:
-Link gambar : (https://drive.google.com/file/d/1LuSi1LucrpF54qQHF0GKCrSepz9L0O_e/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1LuSi1LucrpF54qQHF0GKCrSepz9L0O_e)
 
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-Link gambar : (https://drive.google.com/file/d/1M8TB-DdQarX9kSIFvBDcedBqfBp6ZhAq/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1M8TB-DdQarX9kSIFvBDcedBqfBp6ZhAq)
 
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
@@ -86,7 +86,7 @@ $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 $ docker run -d -p 8080:80--memory=500m os-app
 ```
 # BUKTI STATUS PEMBATASAN MEMORI
-Link gambar : (https://drive.google.com/file/d/1LQrsDZ_gxE1_caRxhnYlh-Hqj9o4qhrh/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1LQrsDZ_gxE1_caRxhnYlh-Hqj9o4qhrh)
 # MELAKUKAN FASE BEDAH CONTAINER
 ## 1. Command ps aux
 Menampilkan semua proses yang sedang berjalan di dalam container. Ini berguna untuk menganalisis aplikasi atau proses yang sedang dijalankan dalam container.
@@ -94,7 +94,7 @@ Menampilkan semua proses yang sedang berjalan di dalam container. Ini berguna un
 $ docker exec -it <container_id> ps aux
 ```
 ### Bukti Percobaan ps aux
-Link gambar : (https://drive.google.com/file/d/1LpFOpT-zx-YFsgPlr7lMR8g1R9hlHgkQ/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1LpFOpT-zx-YFsgPlr7lMR8g1R9hlHgkQ)
 
 ## 2. Command history
 Command ini memberikan informasi rinci tentang container, termasuk konfigurasi jaringan, mounts, environment variables, dan lainnya.
@@ -102,7 +102,7 @@ Command ini memberikan informasi rinci tentang container, termasuk konfigurasi j
 $ docker history <image_id>
 ```
 ## Bukti percobaan history
-Link gambar : (https://drive.google.com/file/d/1Lq2e4zrcYOW7wuR4NQqOms_hpgu3gQmG/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1Lq2e4zrcYOW7wuR4NQqOms_hpgu3gQmG)
 
 ## 3.Command masuk ke container
 Untuk masuk dan melakukan modifikasi file didalam container
@@ -110,4 +110,7 @@ Untuk masuk dan melakukan modifikasi file didalam container
 $ docker exec -it <container_id> /bin/bash
 ```
 ## Bukti percobaan masuk ke container
-Link gambar : (https://drive.google.com/file/d/1LtJI2NTKAFTmNeuxImYGchg9___xm_qp/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1LtJI2NTKAFTmNeuxImYGchg9___xm_qp)
+
+# Keluar dari Container
+exit
