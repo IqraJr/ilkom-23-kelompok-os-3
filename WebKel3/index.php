@@ -43,6 +43,12 @@
                 <h2>Zakiatul Balqis Mawaddah Azahra</h2>
                 <p>F1G123056</p>
             </div>
-            
+         </div>
+    <footer>
+    <p>&copy; 2024 Kelompok 3</p>
+</footer>
+
+</body>
+</html>
   
 </body>
