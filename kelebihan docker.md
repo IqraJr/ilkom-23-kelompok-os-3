@@ -20,7 +20,7 @@ Docker adalah teknologi kontainerisasi yang memberikan banyak kelebihan, terutam
 ## 6. Isolasi Aplikasi
    Setiap *container* berjalan secara terisolasi. Ini mencegah konflik antar aplikasi yang memiliki *dependency* atau konfigurasi yang berbeda.
 
-## 7. Keamanan**
+## 7. Keamanan
    Dengan isolasi *container*, aplikasi dalam satu *container* tidak dapat memengaruhi aplikasi di *container* lain. Keamanan tambahan juga dapat diterapkan melalui pengaturan izin dan kebijakan.
 
 ## 8. **Mudah Diintegrasikan dengan CI/CD**
