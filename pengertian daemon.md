@@ -13,7 +13,7 @@ Banyak daemon berfungsi sebagai server untuk memberikan layanan jaringan, sepert
 ### 3. Manajemen Proses
 Daemon dapat mengelola proses lain, seperti monitor sistem, penjadwalan tugas, atau menangani antrian pekerjaan.
 
-### 4. Dinamika**
+### 4. Dinamika
 Daemon dapat diaktifkan atau dinonaktifkan sesuai kebutuhan, dan dapat dijadwalkan untuk berjalan pada waktu tertentu.
 
 ## Fungsi Utama Daemon
