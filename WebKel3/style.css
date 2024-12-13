@@ -26,4 +26,5 @@ header {
   justify-content: space-evenly;
   gap: 15px;
   padding: 20px;
+  padding-bottom: 50px;
 }
