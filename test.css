@@ -22,6 +22,9 @@ body {
     weight: 40px;
     background-color: #f0f0f0;
 }
+input::placeholder {
+    
+}
 
 .login-container {
     background-color: yellow;
