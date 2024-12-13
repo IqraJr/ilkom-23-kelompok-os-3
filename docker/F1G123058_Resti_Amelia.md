@@ -102,7 +102,7 @@ Command ini memberikan informasi rinci tentang container, termasuk konfigurasi j
 $ docker history <image_id>
 ```
 ## Bukti percobaan history
-Link gambar : (https://drive.google.com/file/d/1Lq2e4zrcYOW7wuR4NQqOms_hpgu3gQmG/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1Lq2e4zrcYOW7wuR4NQqOms_hpgu3gQmG)
 
 ## 3.Command masuk ke container
 Untuk masuk dan melakukan modifikasi file didalam container
