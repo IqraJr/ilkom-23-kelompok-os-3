@@ -54,3 +54,8 @@ header {
     margin-bottom: 10px;
     font-weight: 600;
 }
+.member p {
+    font-size: 1em;
+    color: #F0F8FF; /* Biru sangat terang */
+    line-height: 1.3;
+}
