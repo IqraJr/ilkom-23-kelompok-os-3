@@ -74,7 +74,7 @@ Link gambar : (https://drive.google.com/file/d/1LuSi1LucrpF54qQHF0GKCrSepz9L0O_e
 
 
 # MENAMPILKAN BUKTI DOCKER BERJALAN
-Link gambar : (https://drive.google.com/file/d/1M8TB-DdQarX9kSIFvBDcedBqfBp6ZhAq/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1M8TB-DdQarX9kSIFvBDcedBqfBp6ZhAq)
 
 
 # MENGHENTIKAN KONTAINER YANG BERJALAN
