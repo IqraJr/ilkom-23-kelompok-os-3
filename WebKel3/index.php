@@ -44,11 +44,11 @@
                 <p>F1G123056</p>
             </div>
          </div>
-    <footer>
+<footer>
     <p>&copy; 2024 Kelompok 3</p>
 </footer>
-
+    
 </body>
 </html>
   
-</body>
+
