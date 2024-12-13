@@ -1,5 +1,6 @@
 # MENJALANKAN APLIKASI DENGAN DOCKER DI LINUX
 
+# 1. Membuat Docker file
 ## Langkah 1: Membuat direktori proyek Docker
 Buat folder proyek untuk menyimpan semua file yang diperlukan.
 ```bash
@@ -92,24 +93,39 @@ Gunakan perintah berikut untuk membangun image Docker.
 docker build -t my-flask-app .
 ```
 
-## Langkah 7: Menjalankan container Docker
+# 2. Menjalankan Container 
+## Menjalankan container Docker
 Jalankan container dengan mengaitkan port lokal ke port di container.
 ```bash
 docker run -d -p 4000:4000 my-flask-app
 ```
 
-## Langkah 8: Memeriksa container yang aktif
+## Memeriksa container yang aktif
 Gunakan perintah berikut untuk melihat daftar container yang sedang berjalan:
 ```bash
 docker ps
 ```
-# Tampilan Cantainer Aktif
+### Tampilan Cantainer Aktif
 ![image](https://github.com/user-attachments/assets/391a1786-6c92-4119-a17f-47bde25bb281)
 
-## Langkah 9: Mengakses aplikasi
+## Mengakses aplikasi
 Buka browser dan akses aplikasi Flask di:
 ```
 http://localhost:4000
 ```
-# Tampilan Browser
+### Tampilan Browser
 ![Screenshot (188)](https://github.com/user-attachments/assets/796790dd-7c1e-44c7-8efc-04c9cefa0a1c)
+
+# Membatasi Penggunaan Memory dan 
+Untuk membatasi penggunaan memori dan CPU, Anda dapat menggunakan opsi --memory saat menjalankan container.
+```bash
+docker run -d -p 4000:4000 --memory="215m" --cpus="0.5" my-flask-app
+```
+membatasi memori container menjadi 215MB dan menggunakan maksimal 0.5 CPU 
+### Tampilan sebelum dibatasi
+
+### Tampilan setelah dibatasi
+
+# Bedah Container
+
+
