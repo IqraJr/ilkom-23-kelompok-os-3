@@ -34,6 +34,7 @@
                 <p>F1G123035</p>
             </div>
             <div class="member">
+            <div class="icon"><i class="fas fa-user-circle"></i></div>
             
             
   
