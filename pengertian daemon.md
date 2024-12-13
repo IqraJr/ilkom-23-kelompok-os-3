@@ -4,7 +4,7 @@
 
 ## Ciri-ciri Daemon
 
-### 1. Menjalankan di Background**
+### 1. Menjalankan di Background
 Daemon tidak memerlukan interaksi langsung dari pengguna dan biasanya dimulai saat sistem booting.
 
 ### 2. **Layanan Jaringan**
