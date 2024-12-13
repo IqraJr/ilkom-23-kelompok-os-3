@@ -11,6 +11,7 @@
     <header>
         Anggota Kelompok 3
     </header>
-<div class="container">
+        <div class="container">
+            <div class="member">
   
 </body>
