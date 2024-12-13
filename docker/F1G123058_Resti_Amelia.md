@@ -94,7 +94,7 @@ Menampilkan semua proses yang sedang berjalan di dalam container. Ini berguna un
 $ docker exec -it <container_id> ps aux
 ```
 ### Bukti Percobaan ps aux
-Link gambar : (https://drive.google.com/file/d/1LpFOpT-zx-YFsgPlr7lMR8g1R9hlHgkQ/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1LpFOpT-zx-YFsgPlr7lMR8g1R9hlHgkQ)
 
 ## 2. Command history
 Command ini memberikan informasi rinci tentang container, termasuk konfigurasi jaringan, mounts, environment variables, dan lainnya.
