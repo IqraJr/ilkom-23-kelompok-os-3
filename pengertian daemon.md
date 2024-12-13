@@ -18,7 +18,7 @@ Daemon dapat diaktifkan atau dinonaktifkan sesuai kebutuhan, dan dapat dijadwalk
 
 ## Fungsi Utama Daemon
 
-### 1. **Menangani Permintaan Jaringan**
+### 1. Menangani Permintaan Jaringan**
 Banyak daemon bertugas untuk mendengarkan permintaan di jaringan, seperti server web (HTTP daemon) atau server email (SMTP daemon).
 
 ### 2. **Pekerjaan Berkala**
