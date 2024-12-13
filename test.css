@@ -27,6 +27,7 @@ body {
 h2 {
     margin-bottom: 20px;
     color: #333;
+    border:solid #000 ;
 }
 
 form {
