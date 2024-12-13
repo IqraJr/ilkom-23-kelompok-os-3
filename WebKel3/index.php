@@ -30,6 +30,11 @@
         <div class="container">
             <div class="member">
             <div class="icon"><i class="fas fa-user-circle"></i></div>
+                <h2>Siti Nuraisyah Sea</h2>
+                <p>F1G123035</p>
+            </div>
+            <div class="member">
+            
             
   
 </body>
