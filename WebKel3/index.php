@@ -18,5 +18,6 @@
         </div>
             <div class="member">
             <div class="icon"><i class="fas fa-user-circle"></i></div>
+            <h2>Zacky Fiqran Kasmada</h2>
   
 </body>
