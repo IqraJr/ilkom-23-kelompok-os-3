@@ -116,7 +116,7 @@ http://localhost:4000
 ### Tampilan Browser
 ![Screenshot (188)](https://github.com/user-attachments/assets/796790dd-7c1e-44c7-8efc-04c9cefa0a1c)
 
-# Membatasi Penggunaan Memory dan 
+# Membatasi Penggunaan Memory dan CPU
 Untuk membatasi penggunaan memori dan CPU, Anda dapat menggunakan opsi --memory saat menjalankan container.
 ```bash
 docker run -d -p 4000:4000 --memory="215m" --cpus="0.5" my-flask-app
