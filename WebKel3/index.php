@@ -35,6 +35,8 @@
             </div>
             <div class="member">
             <div class="icon"><i class="fas fa-user-circle"></i></div>
+                <h2>Della Mustifar</h2>
+                <p>F1G123043</p>
             
             
   
