@@ -1,6 +1,6 @@
 Dalam Docker, container merupakan unit komputasi terisolasi yang menjalankan aplikasi bersama dengan semua dependensinya, termasuk file sistem, pustaka, alat, dan konfigurasi yang dibutuhkan. Container memungkinkan aplikasi berjalan konsisten di berbagai lingkungan tanpa tergantung pada konfigurasi sistem operasi host atau perangkat keras tertentu.
 
-Beberapa konsep utama dari container Docker antara lain:
+Beberapa konsep utama dari container Docker antara lain sebagai berikut:
 
 1. Isolasi: Container beroperasi secara terisolasi dari container lain dan host, menjaga keamanan dan stabilitas sistem.
 2. Ringan: Container hanya membawa komponen yang dibutuhkan oleh aplikasi, membuatnya jauh lebih ringan daripada virtual machine (VM) yang memuat seluruh sistem operasi.
