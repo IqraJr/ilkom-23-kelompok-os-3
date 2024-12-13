@@ -122,9 +122,8 @@ Untuk membatasi penggunaan memori dan CPU, Anda dapat menggunakan opsi --memory 
 docker run -d -p 4000:4000 --memory="215m" --cpus="0.5" my-flask-app
 ```
 membatasi memori container menjadi 215MB dan menggunakan maksimal 0.5 CPU 
-### Tampilan sebelum dibatasi
-
 ### Tampilan setelah dibatasi
+![image](https://github.com/user-attachments/assets/3eeef629-49e7-4dc0-83b5-25a46878123d)
 
 # Bedah Container
 
