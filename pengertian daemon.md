@@ -27,7 +27,7 @@ Beberapa daemon menjalankan tugas berkala, seperti cron daemon yang mengatur pen
 ### 3. Pengelolaan Sumber Daya
 Daemon dapat mengelola dan memonitor sumber daya sistem, seperti daemon untuk manajemen sistem file atau pengawasan kinerja.
 
-### 4. Layanan Sistem**
+### 4. Layanan Sistem
 Beberapa daemon memberikan layanan untuk pengguna dan aplikasi lain, seperti database daemon yang mengelola koneksi dan query ke database.
 
 ## Contoh Daemon
