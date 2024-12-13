@@ -86,7 +86,7 @@ $ docker stop 6938e7e61034bd80069b71464194739e5300c22ba19af2576d923bedd5cb2aa5
 $ docker run -d -p 8080:80--memory=500m os-app
 ```
 # BUKTI STATUS PEMBATASAN MEMORI
-Link gambar : (https://drive.google.com/file/d/1LQrsDZ_gxE1_caRxhnYlh-Hqj9o4qhrh/view?usp=drivesdk)
+![gambar](https://drive.google.com/uc?id=1LQrsDZ_gxE1_caRxhnYlh-Hqj9o4qhrh)
 # MELAKUKAN FASE BEDAH CONTAINER
 ## 1. Command ps aux
 Menampilkan semua proses yang sedang berjalan di dalam container. Ini berguna untuk menganalisis aplikasi atau proses yang sedang dijalankan dalam container.
