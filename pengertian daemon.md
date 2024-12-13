@@ -21,7 +21,7 @@ Daemon dapat diaktifkan atau dinonaktifkan sesuai kebutuhan, dan dapat dijadwalk
 ### 1. Menangani Permintaan Jaringan
 Banyak daemon bertugas untuk mendengarkan permintaan di jaringan, seperti server web (HTTP daemon) atau server email (SMTP daemon).
 
-### 2. Pekerjaan Berkala**
+### 2. Pekerjaan Berkala
 Beberapa daemon menjalankan tugas berkala, seperti cron daemon yang mengatur penjadwalan tugas otomatis pada waktu tertentu.
 
 ### 3. **Pengelolaan Sumber Daya**
