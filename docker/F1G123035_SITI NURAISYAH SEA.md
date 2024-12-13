@@ -3,8 +3,8 @@
 ## Langkah 1: Membuat direktori proyek Docker
 Buat folder proyek untuk menyimpan semua file yang diperlukan.
 ```bash
-mkdir my_docker_app
-cd my_docker_app
+mkdir docker.project
+cd docker.project
 ```
 
 ## Langkah 2: Membuat file aplikasi
