@@ -109,3 +109,5 @@ Buka browser dan akses aplikasi Flask di:
 ```
 http://localhost:4000
 ```
+#Tampilan Browser
+![Screenshot (188)](https://github.com/user-attachments/assets/796790dd-7c1e-44c7-8efc-04c9cefa0a1c)
