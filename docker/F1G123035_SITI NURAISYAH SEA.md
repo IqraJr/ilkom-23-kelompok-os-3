@@ -14,13 +14,32 @@ nano main.py
 ```
 ### Isi file `main.py`:
 ```python
-from flask import Flask
+from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Welcome to Dockerized Flask!"
+    html = """
+    <html>
+        <head>
+            <style>
+                body {
+                    background-color: pink;
+                    font-family: 'Arial', sans-serif;
+                    text-align: center;
+                    color: white;
+                    margin-top: 20%;
+                    font-size: 36px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Welcome to Dockerized Flask!</h1>
+        </body>
+    </html>
+    """
+    return render_template_string(html)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=4000)
