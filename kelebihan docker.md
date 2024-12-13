@@ -2,7 +2,7 @@
 
 Docker adalah teknologi kontainerisasi yang memberikan banyak kelebihan, terutama dalam pengembangan, pengujian, dan penyebaran aplikasi. Berikut adalah beberapa kelebihan dari Docker:
 
-## 1. **Portabilitas Antar Lingkungan**
+## 1. Portabilitas Antar Lingkungan**
    Docker memungkinkan aplikasi berjalan dengan konsisten di berbagai lingkungan, baik di *development*, *testing*, maupun *production*. Hal ini karena Docker membungkus aplikasi dengan semua dependensinya dalam sebuah *container*.
 
 ## 2. **Penggunaan Sumber Daya yang Efisien**
