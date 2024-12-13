@@ -38,3 +38,16 @@
    - Perintah ini menjalankan Docker image `zacky`.
    - `-d`: Menjalankan container di mode detached (latar belakang).
    - `-p 8080:80`: Memetakan port 8080 di host ke port 80 di dalam container.
+     
+5. **Melakukan Perintah untuk Menghentikan Container**
+
+   Jalankan perintah berikut untuk menghentikan container yang sedang berjalan:
+
+   ```bash
+   docker stop <container_id>
+   ```
+
+   - Ganti `<container_id>` dengan ID atau nama container yang ingin dihentikan. Anda dapat melihat daftar container yang sedang berjalan dengan perintah:
+
+     ```bash
+     docker ps
