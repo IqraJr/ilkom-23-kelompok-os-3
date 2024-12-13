@@ -7,7 +7,7 @@
 ### 1. Menjalankan di Background
 Daemon tidak memerlukan interaksi langsung dari pengguna dan biasanya dimulai saat sistem booting.
 
-### 2. Layanan Jaringan**
+### 2. Layanan Jaringan
 Banyak daemon berfungsi sebagai server untuk memberikan layanan jaringan, seperti HTTP server (misalnya Apache), database server, dan lain-lain.
 
 ### 3. **Manajemen Proses**
