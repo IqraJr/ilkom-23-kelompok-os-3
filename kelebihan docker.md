@@ -26,7 +26,8 @@ Docker adalah teknologi kontainerisasi yang memberikan banyak kelebihan, terutam
 ## 8. Mudah Diintegrasikan dengan CI/CD
    Docker mendukung integrasi dengan berbagai alat *Continuous Integration / Continuous Deployment (CI/CD)* seperti Jenkins, GitLab CI, dan Travis CI, sehingga mempercepat siklus pengembangan perangkat lunak.
 
-
+## 9. Ekosistem yang Luas
+   Docker Hub menyediakan berbagai *pre-built images* yang dapat digunakan untuk mempercepat pengembangan. Selain itu, komunitas yang aktif mempermudah dalam mendapatkan dukungan dan solusi.
 
 ## 10. Kompatibilitas Lintas Platform
    Docker dapat dijalankan di berbagai platform seperti Linux, macOS, dan Windows, sehingga pengembang dapat bekerja di berbagai sistem operasi tanpa masalah.
