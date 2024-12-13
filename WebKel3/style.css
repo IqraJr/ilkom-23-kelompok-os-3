@@ -33,4 +33,5 @@ header {
   border-radius: 15px;
   padding: 20px;
   text-align: center;
+  flex: 1 1 220px;
 }
