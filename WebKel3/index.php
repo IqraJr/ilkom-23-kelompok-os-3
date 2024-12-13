@@ -15,15 +15,17 @@
             <div class="member">
             <h2>Iqra Fauzan Akbar</h2>
             <p>F1G123020</p>
-        </div>
+            </div>
             <div class="member">
             <div class="icon"><i class="fas fa-user-circle"></i></div>
             <h2>Zacky Fiqran Kasmada</h2>
             <p>F1G123038</p>
-        </div>
+            </div>
             <div class="member">
             <div class="icon"><i class="fas fa-user-circle"></i></div>
             <h2>Resti Amelia</h2>
             <p>F1G123058</p>
+            </div>
+        </div>
   
 </body>
