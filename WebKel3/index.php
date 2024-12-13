@@ -24,5 +24,6 @@
             <div class="member">
             <div class="icon"><i class="fas fa-user-circle"></i></div>
             <h2>Resti Amelia</h2>
+            <p>F1G123058</p>
   
 </body>
