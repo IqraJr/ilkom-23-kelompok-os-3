@@ -48,3 +48,9 @@ header {
     color: #003366; /* Biru tua */
     margin-bottom: 15px;
 }
+  .member h2 {
+    color: #FFFFFF; /* Putih */
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
