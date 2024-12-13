@@ -31,4 +31,5 @@ header {
 .member {
   background-color: #4A90E2; /* Biru */
   border-radius: 15px;
+  padding: 20px;
 }
