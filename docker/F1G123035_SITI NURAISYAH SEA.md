@@ -139,7 +139,7 @@ docker exec -it agitated_greider /bin/bash
 ```bash
 ls
 ```
-![image](https://github.com/user-attachments/assets/0333f38b-2bda-4775-9712-ef78b0a9cc5c)
+![image](https://github.com/user-attachments/assets/1de5b8c8-e07a-4853-b250-3311697c49ea)
 
 
 
