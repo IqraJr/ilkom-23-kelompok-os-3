@@ -141,6 +141,13 @@ ls
 ```
 ![image](https://github.com/user-attachments/assets/1de5b8c8-e07a-4853-b250-3311697c49ea)
 
+Perintah untuk menampilkan file dan folder root
+```bash
+ls -la /
+```
+![image](https://github.com/user-attachments/assets/b1a38f0e-fa1b-4311-93eb-dcaddd25efaa)
+
+
 
 
 
