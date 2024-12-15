@@ -147,6 +147,16 @@ ls -la /
 ```
 ![image](https://github.com/user-attachments/assets/b1a38f0e-fa1b-4311-93eb-dcaddd25efaa)
 
+Perintah untuk menampilkan format yang lebih mudah dibaca
+```bash
+df -h
+```
+![image](https://github.com/user-attachments/assets/9eef0531-d1b2-4a07-ba88-e1b213be4a10)
+
+Menampilkan os yang digunakan
+```bash
+df -h
+```
 
 
 
