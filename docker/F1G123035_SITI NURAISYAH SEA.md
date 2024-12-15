@@ -159,6 +159,7 @@ cat /etc/os-release
 ```
 ![image](https://github.com/user-attachments/assets/c7fade8e-8d00-4221-a5c1-70cd3dd6730b)
 
+Perintah untuk keluair dari container
 ```bash
 exit
 ```
