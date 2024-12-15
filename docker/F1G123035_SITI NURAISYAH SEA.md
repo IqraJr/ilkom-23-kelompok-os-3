@@ -163,6 +163,7 @@ Perintah untuk keluair dari container
 ```bash
 exit
 ```
+![image](https://github.com/user-attachments/assets/b88e04c1-b6ee-4bf3-a98a-59985d740389)
 
 
 
