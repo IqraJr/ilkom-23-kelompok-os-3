@@ -232,13 +232,13 @@ $ docker stop dockerkel4
 ## 2.MELAKUKAN PEMBATASAN MEMORY DAN CPU DALAM CONTAINER 
 ### PEMBATASAN MEMORY
 ```bash
-$ docker update --memory 2g --memory-swap 3g dockerkel4        
+$ docker update --memory 500m --memory-swap 600m dockerkel4        
 ```
 #### SEBELUM PEMBATASAN MEMORY
-![gambar](https://drive.google.com/uc?id=17jgYE8pJZlQWx8WVOll7dyK4WDWTkRr0)
+![gambar](https://drive.google.com/uc?id=1A03papVf9t2w2UYU9dLxW33IBxl6PAW-)
 
 #### SESUDAH PEMBATASAN MEMORY
-![gambar](https://drive.google.com/uc?id=1ESeDY8zEFYwElcyjw3bwDpZ6j5Hh4yUA)
+![gambar](https://drive.google.com/uc?id=1L-PKcy_8KmREOk07dybpe4ynPJX3Vad3)
 
 ### PEMBATASAN CPU
 ```bash
@@ -256,7 +256,7 @@ Sebelum kita melakukan bedah container terlebih dahulu kita akan masuk ke dalam 
 ```bash
 $ docker exec -it dockerkel4 /bin/bash
 ```
-![gambar](https://drive.google.com/uc?id=1d_LeLXqpEjdqRj4MNhAKTXPG7IKfLfWu)
+![gambar](https://drive.google.com/uc?id=1M1g0IqKhDg904DFyOwF6JsF3C-oV5Zzw)
 
 Setelah masuk ke dalam container kita akan mencoaba beberapa command dibawah ini
 ### 1. Command ls -la /
@@ -283,6 +283,11 @@ Menampilkan daftar proses yang berjalan di container.
 Menampilkan tampilan real-time proses aktif.
 
 ![gambar](https://drive.google.com/uc?id=1SPEtu5bUEpULJPNNf9I_EQjw7UOe6lJp)
+
+### 6. Command lscpu
+Menampilkan detail arsitektur pada cpu.
+
+![gambar](https://drive.google.com/uc?id=1U90V3liMp8mpuMcweFePSA-CEV1z-KgP)
 
 ## KELUAR DARI CONTAINER 
 ```bash
